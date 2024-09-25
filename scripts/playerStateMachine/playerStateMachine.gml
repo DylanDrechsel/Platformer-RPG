@@ -17,6 +17,13 @@ function playerStateMachine(){
 			isPlayerOnGround();
 			playerJump();
 		break;
+		case STATES.SPRINT:
+			isPlayerOnGround();
+			playerSprint();
+		break;
+		case STATES.SPRINT_JUMP:
+			isPlayerOnGround();
+		break;
 		case STATES.HURT:
 		break;
 		case STATES.ATTACK:

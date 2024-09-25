@@ -2,7 +2,6 @@ function playerJump(){
 	if (sprite_index != sPlayerJump) {
 		sprite_index = sPlayerJump;
 		image_index = 0;
-		image_xscale = PLAYER_SIZE_REDUCTION * characterDirection;
 	}
 	
 	if (keyUp && isOnGround && !isJumping) {

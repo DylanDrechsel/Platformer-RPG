@@ -4,6 +4,8 @@ enum STATES {
 	IDLE,
 	FREE,
 	JUMP,
+	SPRINT,
+	SPRINT_JUMP,
 	HURT,
 	ATTACK,
 	BLOCK,
