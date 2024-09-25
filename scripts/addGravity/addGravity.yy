@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"addGravity",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"addGravity",
+  "parent":{
+    "name":"Collisions",
+    "path":"folders/Collisions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

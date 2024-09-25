@@ -2,7 +2,7 @@ function playerMovement(){
 	directionInput = keyRight - keyLeft;
 	
 	xSpeed = directionInput * moveSpd;
-	//ySpeed += grav;
+	ySpeed += grav;
 	
 	if (directionInput != 0) {
 		if (sprite_index != sPlayerRun) {
@@ -13,6 +13,8 @@ function playerMovement(){
 		
 		if (image_xscale = PLAYER_SIZE_REDUCTION) image_xscale *= directionInput;
 	} else state = STATES.IDLE;
+	
+	checkCollision();
 	
 	x += xSpeed;
 	y += ySpeed;

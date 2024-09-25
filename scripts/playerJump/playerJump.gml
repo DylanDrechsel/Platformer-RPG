@@ -14,5 +14,6 @@ function playerJump(){
 	}
 	
 	ySpeed += grav;
+	checkCollision();
 	y += ySpeed;
 }

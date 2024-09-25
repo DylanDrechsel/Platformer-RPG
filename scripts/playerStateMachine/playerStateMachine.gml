@@ -4,6 +4,8 @@ function playerStateMachine(){
 		break;
 		case STATES.IDLE:
 			checkState();
+			addGravity();
+			checkCollision();
 		break;
 		case STATES.FREE:
 			checkState();
