@@ -1,0 +1,10 @@
+#macro PLAYER_SIZE_REDUCTION		.25
+
+enum STATES {
+	IDLE,
+	FREE,
+	JUMP,
+	HURT,
+	ATTACK,
+	BLOCK
+}
