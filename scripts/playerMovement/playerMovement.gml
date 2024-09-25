@@ -8,11 +8,8 @@ function playerMovement(){
 	if (directionInput != 0) {
 		if (sprite_index != sPlayerRun) {
 			sprite_index = sPlayerRun;
-			image_xscale = PLAYER_SIZE_REDUCTION;  
-			image_yscale = PLAYER_SIZE_REDUCTION;
+			image_xscale = PLAYER_SIZE_REDUCTION *characterDirection;
 		}
-		
-		if (image_xscale = PLAYER_SIZE_REDUCTION) image_xscale *= directionInput;
 	} else state = STATES.IDLE;
 	
 	checkCollision();

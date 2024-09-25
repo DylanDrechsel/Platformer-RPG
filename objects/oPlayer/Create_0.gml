@@ -1,7 +1,3 @@
-// Change size of the sprite
-image_xscale = PLAYER_SIZE_REDUCTION;
-image_yscale = PLAYER_SIZE_REDUCTION;
-
 // State
 state = STATES.IDLE;
 

@@ -2,11 +2,7 @@ function playerJump(){
 	if (sprite_index != sPlayerJump) {
 		sprite_index = sPlayerJump;
 		image_index = 0;
-		
-		if (image_xscale != PLAYER_SIZE_REDUCTION) {
-			image_xscale = PLAYER_SIZE_REDUCTION * characterDirection;
-			image_yscale = PLAYER_SIZE_REDUCTION;
-		}
+		image_xscale = PLAYER_SIZE_REDUCTION * characterDirection;
 	}
 	
 	if (keyUp && isOnGround && !isJumping) {
