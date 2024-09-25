@@ -7,6 +7,7 @@ function playerJump(){
 	if (keyUp && isOnGround && !isJumping) {
 		if (keyRight) xSpeed = moveSpd
 		if (keyLeft) xSpeed = -moveSpd
+		if (!keyLeft && !keyRight) xSpeed = 0;
 		ySpeed = jumpSpd;
 		isJumping = true;
 	}
