@@ -6,5 +6,6 @@ enum STATES {
 	JUMP,
 	HURT,
 	ATTACK,
-	BLOCK
+	BLOCK,
+	DEAD
 }

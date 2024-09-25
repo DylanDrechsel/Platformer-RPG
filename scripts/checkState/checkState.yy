@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"checkIdle",
+  "%Name":"checkState",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"checkIdle",
+  "name":"checkState",
   "parent":{
     "name":"Scripts",
     "path":"folders/Player/Scripts.yy",

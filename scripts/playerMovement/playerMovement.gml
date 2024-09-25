@@ -1,21 +1,21 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function playerMovement(){
-	keyLeft = keyboard_check(ord("A"));
-	keyRight = keyboard_check(ord("D"));
 	directionInput = keyRight - keyLeft;
+	if (directionInput = 1) characterDirection = 1 else characterDirection = -1;
 	
 	xSpeed = directionInput * moveSpd;
-	//ySpeed += grav;
+	ySpeed += grav;
 	
 	if (directionInput != 0) {
 		if (sprite_index != sPlayerRun) {
 			sprite_index = sPlayerRun;
-			image_index = 0;
-			image_xscale = PLAYER_SIZE_REDUCTION * directionInput;  
+			image_xscale = PLAYER_SIZE_REDUCTION;  
 			image_yscale = PLAYER_SIZE_REDUCTION;
 		}
+		
+		if (image_xscale = PLAYER_SIZE_REDUCTION) image_xscale *= directionInput;
 	} else state = STATES.IDLE;
+	
+	checkCollision();
 	
 	x += xSpeed;
 	y += ySpeed;
