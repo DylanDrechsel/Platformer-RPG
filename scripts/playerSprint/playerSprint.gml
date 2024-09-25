@@ -3,7 +3,11 @@ function playerSprint(){
 		sprite_index = sPlayerSprint;	
 	}
 	
-	if (keyboard_check_released(vk_lshift) && !keyLeft && !keyRight) {
+	if (keyboard_check(vk_lshift) && keyUp) {
+		state = STATES.SPRINT_JUMP;
+	}
+	
+	if (!keyLeft && !keyRight) {
 		state = STATES.IDLE;
 	}
 	
