@@ -9,14 +9,14 @@ function playerJump(){
 		}
 	}
 	
-	if (keyUp && isPlayerOnGround() && !isJumping) {
+	if (keyUp && isOnGround && !isJumping) {
 		if (keyRight) xSpeed = moveSpd
 		if (keyLeft) xSpeed = -moveSpd
 		ySpeed = jumpSpd;
 		isJumping = true;
 	}
 	
-	if (isPlayerOnGround() && ySpeed >= 0 && isJumping) {
+	if (isOnGround && ySpeed >= 0 && isJumping) {
 		state = STATES.IDLE;
 		isJumping = false;
 	}
