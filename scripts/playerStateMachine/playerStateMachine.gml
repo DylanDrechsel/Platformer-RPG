@@ -12,7 +12,6 @@ function playerStateMachine(){
 			playerMovement();
 		break;
 		case STATES.JUMP:
-			checkState();
 			playerJump();
 		break;
 		case STATES.HURT:

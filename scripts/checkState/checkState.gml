@@ -1,10 +1,10 @@
 function checkState(){
 	// Check if the player presses movement keys
-    if ((keyLeft || keyRight) && state != STATES.FREE) {
+    if ((keyLeft || keyRight) && state != STATES.FREE && isPlayerOnGround()) {
         state = STATES.FREE;
     }
 	
-	if (keyUp && state != STATES.JUMP) {
+	if (keyUp && state != STATES.JUMP && isPlayerOnGround()) {
 		state = STATES.JUMP;
 	}
 	

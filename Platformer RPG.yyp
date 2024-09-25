@@ -35,6 +35,7 @@
     {"id":{"name":"checkCollision","path":"scripts/checkCollision/checkCollision.yy",},},
     {"id":{"name":"checkState","path":"scripts/checkState/checkState.yy",},},
     {"id":{"name":"EnumMacros","path":"scripts/EnumMacros/EnumMacros.yy",},},
+    {"id":{"name":"isPlayerOnGround","path":"scripts/isPlayerOnGround/isPlayerOnGround.yy",},},
     {"id":{"name":"playerJump","path":"scripts/playerJump/playerJump.yy",},},
     {"id":{"name":"playerMovement","path":"scripts/playerMovement/playerMovement.yy",},},
     {"id":{"name":"playerStateMachine","path":"scripts/playerStateMachine/playerStateMachine.yy",},},
