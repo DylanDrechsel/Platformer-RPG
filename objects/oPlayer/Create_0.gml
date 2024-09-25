@@ -13,5 +13,6 @@ keyDown = false;
 grav = .25;
 moveSpd = 5;
 sprintSpd = 8;
+jumpSpd = -10;
 xSpeed = 0;
 ySpeed = 0;
