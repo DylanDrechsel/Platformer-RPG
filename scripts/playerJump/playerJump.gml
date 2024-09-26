@@ -4,7 +4,9 @@ function playerJump(spd){
 		image_index = 0;
 	}
 	
+	// If the Player is on the ground and hit the Jump button apply the Jump values
 	if (keyUp && isOnGround && !isJumping) {
+		// If the Player is holding the Left or Right key apply the spd to xSpeed
 		if (keyRight) xSpeed = spd
 		if (keyLeft) xSpeed = -spd
 		if (!keyLeft && !keyRight) xSpeed = 0;
@@ -12,8 +14,9 @@ function playerJump(spd){
 		isJumping = true;
 	}
 	
+	// Sets the proper state if the Player is on the ground
 	if (isOnGround && ySpeed >= 0 && isJumping) {
-		state = STATES.IDLE;
+		if (keyRight || keyLeft) state = STATES.FREE else state = STATES.IDLE
 		isJumping = false;
 	}
 	

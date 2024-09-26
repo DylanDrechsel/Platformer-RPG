@@ -40,7 +40,6 @@
     {"id":{"name":"isPlayerOnGround","path":"scripts/isPlayerOnGround/isPlayerOnGround.yy",},},
     {"id":{"name":"playerJump","path":"scripts/playerJump/playerJump.yy",},},
     {"id":{"name":"playerMovement","path":"scripts/playerMovement/playerMovement.yy",},},
-    {"id":{"name":"playerSprint","path":"scripts/playerSprint/playerSprint.yy",},},
     {"id":{"name":"playerStateMachine","path":"scripts/playerStateMachine/playerStateMachine.yy",},},
     {"id":{"name":"attack1","path":"sprites/attack1/attack1.yy",},},
     {"id":{"name":"attack2","path":"sprites/attack2/attack2.yy",},},
