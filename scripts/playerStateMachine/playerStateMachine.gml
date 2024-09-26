@@ -3,27 +3,18 @@ function playerStateMachine(){
 		default:
 		break;
 		case STATES.IDLE:
-			isPlayerOnGround();
 			checkState();
 			addGravity();
 			checkCollision();
 		break;
 		case STATES.FREE:
-			isPlayerOnGround();
 			checkState();
 			playerMovement();
 		break;
 		case STATES.JUMP:
-			isPlayerOnGround();
-			playerJump();
+			playerJump(isSprinting ? sprintSpd : moveSpd);
 		break;
-		case STATES.SPRINT:
-			isPlayerOnGround();
-			playerSprint();
-		break;
-		case STATES.SPRINT_JUMP:
-			isPlayerOnGround();
-			playerSprintJump();
+		case STATES.CROUCH:
 		break;
 		case STATES.HURT:
 		break;

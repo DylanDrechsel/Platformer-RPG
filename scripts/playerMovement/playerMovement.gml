@@ -4,16 +4,27 @@ function playerMovement(){
 	ySpeed += grav;
 	
 	if (directionInput != 0) {
-		if (keyboard_check(vk_lshift) && state != STATES.SPRINT) {
-			state = STATES.SPRINT;	
-		}
+		if (keyboard_check(vk_lshift)) {
+			if (sprite_index != sPlayerSprint) sprite_index = sPlayerSprint;
+			if (!isSprinting) isSprinting = true;
+			xSpeed = directionInput * sprintSpd;
+			image_xscale = PLAYER_SIZE_REDUCTION * characterDirection;
+		} else isSprinting = false;
 		
-		if (sprite_index != sPlayerRun) {
-			sprite_index = sPlayerRun;
+		if (!isSprinting) {
+			if (sprite_index != sPlayerRun) sprite_index = sPlayerRun;
+			xSpeed = directionInput * moveSpd;
 			image_xscale = PLAYER_SIZE_REDUCTION * characterDirection;
 		}
+		//else if (keyboard_check_released(vk_lshift)) {
+		//	isSprinting = false;	
+		//} else if (!isSprinting) {
+		//	if (sprite_index != sPlayerRun) sprite_index = sPlayerRun;
+			
+		//	xSpeed = directionInput * moveSpd;
+		//}
 		
-		xSpeed = directionInput * moveSpd;
+		//image_xscale = PLAYER_SIZE_REDUCTION * characterDirection;
 	} else state = STATES.IDLE;
 	
 	checkCollision();
