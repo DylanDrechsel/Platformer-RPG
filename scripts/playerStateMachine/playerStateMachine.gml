@@ -15,6 +15,8 @@ function playerStateMachine(){
 			playerJump(isSprinting ? sprintSpd : moveSpd);
 		break;
 		case STATES.CROUCH:
+			checkState();
+			playerCrouch()
 		break;
 		case STATES.HURT:
 		break;
