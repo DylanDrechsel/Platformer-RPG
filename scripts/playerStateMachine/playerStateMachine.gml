@@ -12,7 +12,7 @@ function playerStateMachine(){
 			checkState();
 			playerMovement();
 			playerDash();
-		break; 
+		break;
 		case STATES.JUMP:
 			checkState();
 			playerJump(isSprinting ? sprintSpd : moveSpd);

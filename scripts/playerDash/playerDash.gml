@@ -9,13 +9,18 @@ function playerDash(){
 	if (keyDash) {
 		if (sprite_index != sPlayerDash) {
 		sprite_index = sPlayerDash;
-		image_index = 0;
+		image_index = _dashStartFrame;
+		image_speed = 2
 		isDashing = true;
 		}
 	}
 	
-	if (isDashing && _currentFrame > _dashMoveStartFrame && _currentFrame < _dashMoveEndFrame) xSpeed = dashSpd;
-	if (_currentFrame = _dashEndFrame) isDashing = false;
+	if (isDashing && _currentFrame > _dashMoveStartFrame && _currentFrame < _dashMoveEndFrame) {
+		image_xscale *= characterDirection;
+		xSpeed = dashSpd * characterDirection;
+		image_speed = 1;
+	}
+	if (_currentFrame == _dashEndFrame) isDashing = false;
 	
 	x += xSpeed;
 }

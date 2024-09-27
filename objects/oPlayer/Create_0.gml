@@ -3,11 +3,14 @@ state = STATES.IDLE;
 
 // Input Variables
 directionInput = 0;
-characterDirection = 0;
+characterDirection = 1;
 keyLeft = false;
 keyRight = false;
 keyUp = false;
 keyDown = false;
+keyBlock = false;
+keyAttack = false;
+keyDash =false;
 
 // Gravity & Collision
 grav = .25;
@@ -19,7 +22,7 @@ ySpeed = 0;
 moveSpd = 5;
 sprintSpd = 9;
 isSprinting = false;
-dashSpd = 15;
+dashSpd = 40;
 isDashing = false;
 
 // Jumping Variables

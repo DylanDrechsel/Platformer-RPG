@@ -7,4 +7,5 @@ keyAttack = mouse_check_button(mb_left);
 keyDash = keyboard_check(vk_space);
 
 isPlayerOnGround();
+checkFacingDirection();
 playerStateMachine();

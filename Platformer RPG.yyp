@@ -35,6 +35,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"addGravity","path":"scripts/addGravity/addGravity.yy",},},
     {"id":{"name":"checkCollision","path":"scripts/checkCollision/checkCollision.yy",},},
+    {"id":{"name":"checkFacingDirection","path":"scripts/checkFacingDirection/checkFacingDirection.yy",},},
     {"id":{"name":"checkState","path":"scripts/checkState/checkState.yy",},},
     {"id":{"name":"EnumMacros","path":"scripts/EnumMacros/EnumMacros.yy",},},
     {"id":{"name":"isPlayerOnGround","path":"scripts/isPlayerOnGround/isPlayerOnGround.yy",},},
