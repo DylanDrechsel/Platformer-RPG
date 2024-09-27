@@ -10,7 +10,7 @@ function playerStateMachine(){
 		case STATES.FREE:
 			checkState();
 			playerMovement();
-		break;
+		break; 
 		case STATES.JUMP:
 			playerJump(isSprinting ? sprintSpd : moveSpd);
 		break;
@@ -23,6 +23,8 @@ function playerStateMachine(){
 		case STATES.ATTACK:
 		break;
 		case STATES.BLOCK:
+			checkState();
+			playerBlock();
 		break;
 		case STATES.DEAD:
 		break;

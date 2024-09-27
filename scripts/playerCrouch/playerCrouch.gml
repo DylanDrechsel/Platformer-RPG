@@ -6,16 +6,21 @@ function playerCrouch(){
 	
 	if (sprite_index != sPlayerCrouch) {
 		sprite_index = sPlayerCrouch;
-		image_index = 0;
+		image_index = _crouchStartFrame;
+		image_speed = 1;
 	}
 	
 	xSpeed = 0;
-	if (keyLeft) xSpeed = -crouchSpd;
-	if (keyRight) xSpeed = crouchSpd;
+	if (keyLeft) {
+        xSpeed = -crouchSpd;
+        image_xscale = PLAYER_SIZE_REDUCTION * -1;
+    }
+    if (keyRight) {
+        xSpeed = crouchSpd;
+        image_xscale = PLAYER_SIZE_REDUCTION * 1;
+    }
 	
 	if (keyDown) {
-		isCrouching = true;
-		
 		if (_currentFrame < _crouchHoldFrame) {
 			image_speed = 1;
 			xSpeed = 0;

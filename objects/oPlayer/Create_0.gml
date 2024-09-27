@@ -27,3 +27,7 @@ isJumping = false;
 // Crouching Variables
 isCrouching = false;
 crouchSpd = 3;
+
+// Combat Variables
+// Blocking Variables
+isBlocking = false;
