@@ -57,6 +57,7 @@
     {"id":{"name":"jumpHurt","path":"sprites/jumpHurt/jumpHurt.yy",},},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},},
     {"id":{"name":"sForest","path":"sprites/sForest/sForest.yy",},},
+    {"id":{"name":"sPlayerBlock_MaybeBlockingAnimation","path":"sprites/sPlayerBlock_MaybeBlockingAnimation/sPlayerBlock_MaybeBlockingAnimation.yy",},},
     {"id":{"name":"sPlayerBlock","path":"sprites/sPlayerBlock/sPlayerBlock.yy",},},
     {"id":{"name":"sPlayerCrouch","path":"sprites/sPlayerCrouch/sPlayerCrouch.yy",},},
     {"id":{"name":"sPlayerDash","path":"sprites/sPlayerDash/sPlayerDash.yy",},},
