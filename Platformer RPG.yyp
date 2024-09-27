@@ -38,6 +38,7 @@
     {"id":{"name":"checkState","path":"scripts/checkState/checkState.yy",},},
     {"id":{"name":"EnumMacros","path":"scripts/EnumMacros/EnumMacros.yy",},},
     {"id":{"name":"isPlayerOnGround","path":"scripts/isPlayerOnGround/isPlayerOnGround.yy",},},
+    {"id":{"name":"playerBlock","path":"scripts/playerBlock/playerBlock.yy",},},
     {"id":{"name":"playerCrouch","path":"scripts/playerCrouch/playerCrouch.yy",},},
     {"id":{"name":"playerJump","path":"scripts/playerJump/playerJump.yy",},},
     {"id":{"name":"playerMovement","path":"scripts/playerMovement/playerMovement.yy",},},
