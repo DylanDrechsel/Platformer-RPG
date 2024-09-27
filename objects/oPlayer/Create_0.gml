@@ -19,6 +19,8 @@ ySpeed = 0;
 moveSpd = 5;
 sprintSpd = 9;
 isSprinting = false;
+dashSpd = 15;
+isDashing = false;
 
 // Jumping Variables
 jumpSpd = -10;

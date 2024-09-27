@@ -6,12 +6,15 @@ function playerStateMachine(){
 			checkState();
 			addGravity();
 			checkCollision();
+			playerDash();
 		break;
 		case STATES.FREE:
 			checkState();
 			playerMovement();
+			playerDash();
 		break; 
 		case STATES.JUMP:
+			checkState();
 			playerJump(isSprinting ? sprintSpd : moveSpd);
 		break;
 		case STATES.CROUCH:
