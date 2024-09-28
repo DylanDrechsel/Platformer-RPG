@@ -24,6 +24,8 @@ sprintSpd = 9;
 isSprinting = false;
 dashSpd = 40;
 isDashing = false;
+dashJumpSpd = 20;
+dashJump = false;
 
 // Jumping Variables
 jumpSpd = -10;
