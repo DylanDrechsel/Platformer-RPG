@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"playerDash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"playerDash",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Player/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

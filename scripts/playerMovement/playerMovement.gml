@@ -1,6 +1,4 @@
 function playerMovement(){
-	directionInput = keyRight - keyLeft;
-	if (directionInput = 1) characterDirection = 1 else characterDirection = -1;
 	ySpeed += grav;
 	
 	if (directionInput != 0) {
