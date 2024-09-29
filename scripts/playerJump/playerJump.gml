@@ -30,7 +30,6 @@ function playerJump(spd){
 	
 	if (isJumping && isDashing && dashJump) {
 		if (isDashing && _currentFrame > _dashMoveStartFrame && _currentFrame < _dashMoveEndFrame) {
-			image_xscale *= characterDirection;
 			xSpeed = dashJumpSpd * characterDirection;
 		}
 		
