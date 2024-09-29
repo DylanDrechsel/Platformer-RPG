@@ -53,6 +53,14 @@ function playerJump(spd){
 		dashJump = false;
 	}
 	
+	if (state == STATES.JUMP && isJumping && isDashing && dashJump && isOnGround) {
+		state = STATES.IDLE;
+		xSpeed = 0;
+		isDashing = false;
+		dashJump = false;
+		isJumping = false;
+	}
+	
 	ySpeed += grav;
 	checkCollision();
 	x += xSpeed;
