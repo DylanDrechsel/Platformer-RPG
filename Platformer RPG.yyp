@@ -14,6 +14,7 @@
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/All Assets/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collisions","folderPath":"folders/Collisions.yy","name":"Collisions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ENUM & MACROS","folderPath":"folders/ENUM & MACROS.yy","name":"ENUM & MACROS","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Camera","folderPath":"folders/Camera.yy","name":"Camera","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Player/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,6 +31,7 @@
   "name":"Platformer RPG",
   "resources":[
     {"id":{"name":"playerSprintJump","path":"notes/playerSprintJump/playerSprintJump.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCol","path":"objects/oCol/oCol.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
