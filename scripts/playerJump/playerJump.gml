@@ -12,13 +12,14 @@ function playerJump(spd){
 		}
 		
 		// If the Player is holding the Left or Right key apply the spd to xSpeed
-		if (keyRight) xSpeed = spd
-		if (keyLeft) xSpeed = -spd
-		if (!keyLeft && !keyRight) xSpeed = 0;
+		if (keyRight) xSpeed = spd;
+		else if (keyLeft) xSpeed = -spd;
+		else if (!keyLeft && !keyRight) xSpeed = 0;
 		ySpeed = jumpSpd;
 		isJumping = true;
 	}
 	
+	// Sets up the Dash during Jump
 	if (keyDash && isJumping && !isDashing) {
 		if (sprite_index != sPlayerDash) {
 			sprite_index = sPlayerDash;
@@ -28,6 +29,7 @@ function playerJump(spd){
 		}
 	}
 	
+	// Handle Dash movement while Jumping
 	if (isJumping && isDashing && dashJump) {
 		if (isDashing && _currentFrame > _dashMoveStartFrame && _currentFrame < _dashMoveEndFrame) {
 			xSpeed = dashJumpSpd * characterDirection;
@@ -36,6 +38,7 @@ function playerJump(spd){
 		if (_currentFrame == _dashEndFrame) isDashing = false;
 	}
 	
+	// Handles post Dash Jump behavior (Fall after dash is completed)
 	if (isJumping && !isDashing & dashJump) {
 		var _jumpFallingStartFrame = 13;
 		xSpeed = 8 * characterDirection;
@@ -46,23 +49,27 @@ function playerJump(spd){
 		}
 	}
 	
-	// Sets the proper state if the Player is on the ground
+	// Handles Landing
 	if (isOnGround && ySpeed >= 0 && isJumping && !isDashing) {
 		if (keyRight || keyLeft) state = STATES.FREE else state = STATES.IDLE
-		isJumping = false;
-		dashJump = false;
+		resetJumpState();
 	}
 	
+	// Resets the State after Dash and Landing
 	if (state == STATES.JUMP && isJumping && isDashing && dashJump && isOnGround) {
 		state = STATES.IDLE;
 		xSpeed = 0;
-		isDashing = false;
-		dashJump = false;
-		isJumping = false;
+		resetJumpState();
 	}
 	
 	ySpeed += grav;
 	checkCollision();
 	x += xSpeed;
 	y += ySpeed;
+}
+
+function resetJumpState() {
+	isJumping = false;
+    dashJump = false;
+    isDashing = false;
 }

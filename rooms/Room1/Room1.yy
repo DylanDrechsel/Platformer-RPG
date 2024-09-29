@@ -9,6 +9,8 @@
     {"name":"inst_311F0384","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_14476A70","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_61F31D71","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5A71C70C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_33102693","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +20,8 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_14476A70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14476A70","objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":172.0,"scaleY":1.0,"x":1368.0,"y":576.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5A71C70C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A71C70C","objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":36.0,"x":0.0,"y":280.0,},
+        {"$GMRInstance":"v1","%Name":"inst_33102693","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33102693","objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":36.0,"x":2736.0,"y":280.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Ground_Tiles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":96,"SerialiseWidth":171,"TileCompressedData":[
           -5814,-2147483648,3933,62,63,62,63,64,62,63,62,63,64,62,63,62,63,62,63,64,62,63,64,62,63,62,63,62,63,

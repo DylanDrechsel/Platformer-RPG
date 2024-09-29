@@ -5,13 +5,13 @@ function playerDash(){
 	var _dashMoveEndFrame = 14;
 	var _currentFrame = floor(image_index);
 	xSpeed = 0;
-	
+
 	if (keyDash) {
 		if (sprite_index != sPlayerDash) {
-		sprite_index = sPlayerDash;
-		image_index = _dashStartFrame;
-		image_speed = 2
-		isDashing = true;
+			sprite_index = sPlayerDash;
+			image_index = _dashStartFrame;
+			image_speed = 2
+			isDashing = true;
 		}
 	}
 	
@@ -19,7 +19,9 @@ function playerDash(){
 		xSpeed = dashSpd * characterDirection;
 		image_speed = 1;
 	}
-	if (_currentFrame == _dashEndFrame) isDashing = false;
 	
+	if (_currentFrame >= _dashEndFrame) isDashing = false;
+	
+	checkCollision();
 	x += xSpeed;
 }

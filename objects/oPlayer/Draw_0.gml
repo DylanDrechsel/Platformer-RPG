@@ -5,3 +5,4 @@ draw_text(x, y + 140, "Jumping: " + string(isJumping));
 draw_text(x, y + 160, "Dashing: " + string(isDashing));
 draw_text(x, y + 180, "Dash Jump: " + string(dashJump));
 draw_text(x, y + 200, "Sprite Index: " + string(sprite_index));
+draw_text(x, y + 220, "Sprite Image Index: " + string(floor(image_index)));
