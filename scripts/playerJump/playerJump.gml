@@ -39,7 +39,7 @@ function playerJump(spd){
 	
 	if (isJumping && !isDashing & dashJump) {
 		var _jumpFallingStartFrame = 13;
-		xSpeed = 8;
+		xSpeed = 8 * characterDirection;
 		
 		if (sprite_index != sPlayerJump) {
 			sprite_index = sPlayerJump;

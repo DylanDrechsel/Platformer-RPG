@@ -16,7 +16,7 @@ function playerDash(){
 	}
 	
 	if (isDashing && _currentFrame > _dashMoveStartFrame && _currentFrame < _dashMoveEndFrame) {
-		image_xscale *= characterDirection;
+		//image_xscale *= characterDirection;
 		xSpeed = dashSpd * characterDirection;
 		image_speed = 1;
 	}
