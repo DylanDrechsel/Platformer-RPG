@@ -1,7 +1,7 @@
 function playerMovement(){
 	ySpeed += grav;
 	
-	if (directionInput != 0) {
+	if (directionInput != 0 && !isDashing && !dashJump) {
 		// Checking if Player is sprinting and applies sprinting values
 		if (keyboard_check(vk_lshift)) {
 			if (sprite_index != sPlayerSprint) sprite_index = sPlayerSprint;

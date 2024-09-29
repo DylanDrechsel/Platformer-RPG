@@ -3,7 +3,7 @@ function checkState(){
         state = STATES.FREE;
     }
 	
-	if (keyBlock && state != STATES.BLOCK && !isDashing) {
+	if (keyBlock && state != STATES.BLOCK && !isDashing && !isJumping) {
 		isBlocking = true;
 		state = STATES.BLOCK;	
 	}

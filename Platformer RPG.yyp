@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"All Assets","folderPath":"folders/All Assets.yy","name":"All Assets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/All Assets/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Camera","folderPath":"folders/Camera.yy","name":"Camera","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collisions","folderPath":"folders/Collisions.yy","name":"Collisions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ENUM & MACROS","folderPath":"folders/ENUM & MACROS.yy","name":"ENUM & MACROS","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -25,11 +26,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Platformer RPG",
   "resources":[
     {"id":{"name":"playerSprintJump","path":"notes/playerSprintJump/playerSprintJump.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCol","path":"objects/oCol/oCol.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -58,6 +60,7 @@
     {"id":{"name":"jumpAttack","path":"sprites/jumpAttack/jumpAttack.yy",},},
     {"id":{"name":"jumpHurt","path":"sprites/jumpHurt/jumpHurt.yy",},},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},},
+    {"id":{"name":"sDungeon","path":"sprites/sDungeon/sDungeon.yy",},},
     {"id":{"name":"sForest","path":"sprites/sForest/sForest.yy",},},
     {"id":{"name":"sPlayerBlock_MaybeBlockingAnimation","path":"sprites/sPlayerBlock_MaybeBlockingAnimation/sPlayerBlock_MaybeBlockingAnimation.yy",},},
     {"id":{"name":"sPlayerBlock","path":"sprites/sPlayerBlock/sPlayerBlock.yy",},},
@@ -68,6 +71,8 @@
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"sPlayerSprint","path":"sprites/sPlayerSprint/sPlayerSprint.yy",},},
     {"id":{"name":"walk","path":"sprites/walk/walk.yy",},},
+    {"id":{"name":"tsDungeon","path":"tilesets/tsDungeon/tsDungeon.yy",},},
+    {"id":{"name":"tsForest","path":"tilesets/tsForest/tsForest.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
