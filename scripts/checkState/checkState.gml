@@ -3,7 +3,7 @@ function checkState(){
         state = STATES.FREE;
     }
 	
-	if (keyBlock && state != STATES.BLOCK && !isDashing && !isJumping) {
+	if (keyBlock && state != STATES.BLOCK && !isDashing && !isJumping && !isCrouching) {
 		isBlocking = true;
 		state = STATES.BLOCK;	
 	}
@@ -12,7 +12,7 @@ function checkState(){
 		state = STATES.JUMP;
 	}
 	
-	if (keyDown && state != STATES.CROUCH && isOnGround && !isDashing) {
+	if (keyDown && state != STATES.CROUCH && isOnGround && !isDashing && !isBlocking) {
 		isCrouching = true;
 		state = STATES.CROUCH;
 	}
