@@ -24,6 +24,8 @@ function playerStateMachine(){
 		case STATES.HURT:
 		break;
 		case STATES.ATTACK:
+			checkState();
+			playerAttack();
 		break;
 		case STATES.BLOCK:
 			checkState();

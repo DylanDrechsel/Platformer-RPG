@@ -18,7 +18,7 @@ function playerBlock(){
 		if (_currentFrame = _blockHoldFrame) image_speed = 0;
 	} else {
 		if (_currentFrame >= _blockHoldFrame && _currentFrame < _blockEndFrame) image_speed = 1;
-		if (_currentFrame = _blockEndFrame) {
+		if (_currentFrame >= _blockEndFrame) {
 			image_speed = 1;
 			isBlocking = false;	
 		}
