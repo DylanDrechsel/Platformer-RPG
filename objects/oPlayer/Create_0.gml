@@ -38,3 +38,9 @@ crouchSpd = 3;
 // Combat Variables
 // Blocking Variables
 isBlocking = false;
+
+// Attacking Variables
+isAttacking = false;
+damage = 10;
+attackAnimation = 0;
+attackQueued = false;
