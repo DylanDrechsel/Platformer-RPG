@@ -66,6 +66,7 @@
     {"id":{"name":"sForest","path":"sprites/sForest/sForest.yy",},},
     {"id":{"name":"sPlayerAttack_1_HitBox","path":"sprites/sPlayerAttack_1_HitBox/sPlayerAttack_1_HitBox.yy",},},
     {"id":{"name":"sPlayerAttack_1","path":"sprites/sPlayerAttack_1/sPlayerAttack_1.yy",},},
+    {"id":{"name":"sPlayerAttack_2_Combo","path":"sprites/sPlayerAttack_2_Combo/sPlayerAttack_2_Combo.yy",},},
     {"id":{"name":"sPlayerAttack_2","path":"sprites/sPlayerAttack_2/sPlayerAttack_2.yy",},},
     {"id":{"name":"sPlayerAttackCombo","path":"sprites/sPlayerAttackCombo/sPlayerAttackCombo.yy",},},
     {"id":{"name":"sPlayerBlock_MaybeBlockingAnimation","path":"sprites/sPlayerBlock_MaybeBlockingAnimation/sPlayerBlock_MaybeBlockingAnimation.yy",},},
