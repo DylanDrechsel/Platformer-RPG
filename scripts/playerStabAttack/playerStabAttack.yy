@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"playerAttack",
+  "%Name":"playerStabAttack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"playerAttack",
+  "name":"playerStabAttack",
   "parent":{
-    "name":"WIP",
-    "path":"folders/Player/Scripts/WIP.yy",
+    "name":"Scripts",
+    "path":"folders/Player/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -3,15 +3,14 @@ function checkState(){
         state = STATES.FREE;
     }
 	
-	if (keyAttack) {
-		isAttacking = true;
-		//if (attackCount == 0) attackCount = 1;
-		state = STATES.ATTACK;	
-	}
-	
 	if (keyBlock && state != STATES.BLOCK && !isDashing && !isJumping && !isCrouching && !isAttacking) {
 		isBlocking = true;
 		state = STATES.BLOCK;	
+	}
+	
+	if ((keySwingAttack || keyStabAttack) && !keyboard_check(vk_lshift)) {
+		isAttacking = true;
+		state = STATES.ATTACK;	
 	}
 	
 	if (keyUp && state != STATES.JUMP && isOnGround && !isCrouching && !isDashing && !isAttacking) {

@@ -6,7 +6,7 @@ function playerAttack(){
 	var _comboEndFrame = sprite_get_number(sPlayerAttackCombo);
 	var _currentFrame = floor(image_index) + 1;
 	
-	if (mouse_check_button_pressed(mb_left) && attackCount > 0 && attackCount < 3) {
+	if (mouse_check_button_pressed(mb_left) && attackCount >= 1 && attackCount <= 3) {
 		attackCount++;
 		attackQueued = true;
 	}
@@ -19,9 +19,15 @@ function playerAttack(){
 		attackCount = 1;
 	}
 	
+	if (attackCount == 3) {
+		sprite_index = sPlayerAttackCombo;
+	}
+	
 	if (_currentFrame >= _attackEndFrame_2 && attackCount == 2 && attackQueued) {
 		sprite_index = sPlayerAttack_2_Combo;
-	} else if (_currentFrame == sprite_get_number(sPlayerAttack_2_Combo) - 1 && attackCount == 2 && sprite_index == sPlayerAttack_2_Combo) {
+	}
+	
+	if (_currentFrame == sprite_get_number(sPlayerAttack_2_Combo) - 1 && attackCount == 2 && sprite_index == sPlayerAttack_2_Combo) {
 		state = STATES.IDLE;
 		isAttacking = false;
 		attackCount = 0;
@@ -29,7 +35,7 @@ function playerAttack(){
 	}
 	
 	if (_currentFrame >= _attackEndFrame_1 && attackCount == 1) {
-		sprite_index = sPlayerAttack_1;	
+		sprite_index = sPlayerAttack_1;
 	}
 	
 	if (_currentFrame == sprite_get_number(sPlayerAttack_1) && sprite_index == sPlayerAttack_1) {

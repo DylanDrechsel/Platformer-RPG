@@ -9,7 +9,10 @@ keyRight = false;
 keyUp = false;
 keyDown = false;
 keyBlock = false;
-keyAttack = false;
+keySwingAttack = false;
+isSwingAttacking = false;
+keyStabAttack = false;
+isStabAttacking = false;
 keyDash =false;
 
 // Gravity & Collision

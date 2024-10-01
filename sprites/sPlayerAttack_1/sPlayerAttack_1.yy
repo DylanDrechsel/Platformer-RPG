@@ -44,7 +44,7 @@
   ],
   "name":"sPlayerAttack_1",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Attacks",
     "path":"folders/Player/Sprites/Attacks.yy",
@@ -156,7 +156,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":341,
+    "xorigin":327,
     "yorigin":310,
   },
   "swatchColours":null,

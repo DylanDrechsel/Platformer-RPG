@@ -3,8 +3,8 @@
   "%Name":"playerAttackNotes",
   "name":"playerAttackNotes",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Player/Scripts.yy",
+    "name":"WIP",
+    "path":"folders/Player/Scripts/WIP.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
