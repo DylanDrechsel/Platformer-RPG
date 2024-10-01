@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":620,
   "bbox_left":2,
-  "bbox_right":674,
+  "bbox_right":672,
   "bbox_top":1,
   "collisionKind":4,
   "collisionTolerance":0,
@@ -39,7 +39,7 @@
   "height":621,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8b5b9423-8708-42d4-841e-5c99cced2860","blendMode":0,"displayName":"Attack_1 Hit Box","isLocked":false,"name":"8b5b9423-8708-42d4-841e-5c99cced2860","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8b5b9423-8708-42d4-841e-5c99cced2860","blendMode":0,"displayName":"Attack_1 Hit Box","isLocked":false,"name":"8b5b9423-8708-42d4-841e-5c99cced2860","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"73dcb7ef-02e6-4921-bf86-f4bbf1677bb7","blendMode":0,"displayName":"default","isLocked":false,"name":"73dcb7ef-02e6-4921-bf86-f4bbf1677bb7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sPlayerAttack_1",

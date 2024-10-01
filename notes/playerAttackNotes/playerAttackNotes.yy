@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"playerAttackNotes",
+  "name":"playerAttackNotes",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Player/Scripts.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

@@ -5,6 +5,7 @@ function checkState(){
 	
 	if (keyAttack) {
 		isAttacking = true;
+		//if (attackCount == 0) attackCount = 1;
 		state = STATES.ATTACK;	
 	}
 	

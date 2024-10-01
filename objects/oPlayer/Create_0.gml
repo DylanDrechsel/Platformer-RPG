@@ -41,6 +41,6 @@ isBlocking = false;
 
 // Attacking Variables
 isAttacking = false;
-damage = 10;
-attackAnimation = 0;
+attackCount = 0;
 attackQueued = false;
+canAttack = true;
