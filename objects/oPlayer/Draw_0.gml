@@ -27,9 +27,9 @@ draw_text(_debugStartX + _boxWidth, _debugStartY + 100, "Sprite Index: " + strin
 draw_text(_debugStartX + _boxWidth, _debugStartY + 120, "Sprite Image Index: " + string(floor(image_index)));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 140, "Blocking: " + string(isBlocking));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 160, "Attacking: " + string(isAttacking));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Attack Count: " + string(attackCount));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 200, "Attack Queued: " + string(attackQueued));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 220, "Can Attack: " + string(canAttack));
+//draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Attack Count: " + string(attackCount));
+//draw_text(_debugStartX + _boxWidth, _debugStartY + 200, "Attack Queued: " + string(attackQueued));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Can Attack: " + string(canAttack));
 
 
 // Draw player position and speed info (aligned to top-left)

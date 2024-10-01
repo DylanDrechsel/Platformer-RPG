@@ -24,10 +24,10 @@ function playerAttack(){
 	}
 	
 	if (_currentFrame >= _attackEndFrame_2 && attackCount == 2 && attackQueued) {
-		sprite_index = sPlayerAttack_2_Combo;
+		sprite_index = sPlayerAttack_2_Combo_OLD;
 	}
 	
-	if (_currentFrame == sprite_get_number(sPlayerAttack_2_Combo) - 1 && attackCount == 2 && sprite_index == sPlayerAttack_2_Combo) {
+	if (_currentFrame == sprite_get_number(sPlayerAttack_2_Combo_OLD) - 1 && attackCount == 2 && sprite_index == sPlayerAttack_2_Combo_OLD) {
 		state = STATES.IDLE;
 		isAttacking = false;
 		attackCount = 0;
