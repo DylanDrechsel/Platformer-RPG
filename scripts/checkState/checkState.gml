@@ -1,17 +1,17 @@
 function checkState(){
     if ((keyLeft || keyRight) && state != STATES.FREE && isOnGround && !isCrouching && !isDashing && !isAttacking) {
         state = STATES.FREE;
+		isBlocking = false;
     }
-	
-	if (keyAttack) {
-		isAttacking = true;
-		//if (attackCount == 0) attackCount = 1;
-		state = STATES.ATTACK;	
-	}
 	
 	if (keyBlock && state != STATES.BLOCK && !isDashing && !isJumping && !isCrouching && !isAttacking) {
 		isBlocking = true;
 		state = STATES.BLOCK;	
+	}
+	
+	if ((keySwingAttack || keyStabAttack) && !keyboard_check(vk_lshift)) {
+		isAttacking = true;
+		state = STATES.ATTACK;	
 	}
 	
 	if (keyUp && state != STATES.JUMP && isOnGround && !isCrouching && !isDashing && !isAttacking) {
@@ -24,7 +24,7 @@ function checkState(){
 	}
 	
 	if (!keyDown && !keyUp && !keyLeft && !keyRight && isOnGround && 
-	!isCrouching && !isBlocking && !isDashing && !dashJump && !isAttacking && !attackQueued) {
+	!isCrouching && !isBlocking && !isDashing && !dashJump && !isAttacking) {
 		if (sprite_index != sPlayerIdle) sprite_index = sPlayerIdle;
 		state = STATES.IDLE;
 		attackAnimation = 0;

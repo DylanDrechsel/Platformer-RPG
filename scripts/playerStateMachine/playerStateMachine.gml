@@ -25,7 +25,8 @@ function playerStateMachine(){
 		break;
 		case STATES.ATTACK:
 			checkState();
-			playerAttack();
+			if ((keySwingAttack || isSwingAttacking) && !isStabAttacking) playerSwingAttack();
+			if ((keyStabAttack || isStabAttacking) && !isSwingAttacking) playerStabAttack();
 		break;
 		case STATES.BLOCK:
 			checkState();

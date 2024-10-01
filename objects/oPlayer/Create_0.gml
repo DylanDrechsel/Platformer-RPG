@@ -9,7 +9,10 @@ keyRight = false;
 keyUp = false;
 keyDown = false;
 keyBlock = false;
-keyAttack = false;
+keySwingAttack = false;
+isSwingAttacking = false;
+keyStabAttack = false;
+isStabAttacking = false;
 keyDash =false;
 
 // Gravity & Collision
@@ -41,6 +44,6 @@ isBlocking = false;
 
 // Attacking Variables
 isAttacking = false;
-attackCount = 0;
-attackQueued = false;
+//attackCount = 0;
+//attackQueued = false;
 canAttack = true;
