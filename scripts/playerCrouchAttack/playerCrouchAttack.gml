@@ -1,0 +1,3 @@
+function playerCrouchAttack(){
+	isCrouchAttacking = true;
+}

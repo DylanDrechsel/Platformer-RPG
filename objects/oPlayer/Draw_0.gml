@@ -25,11 +25,14 @@ draw_text(_debugStartX + _boxWidth, _debugStartY + 60, "Dashing: " + string(isDa
 draw_text(_debugStartX + _boxWidth, _debugStartY + 80, "Dash Jump: " + string(dashJump));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 100, "Sprite Index: " + string(sprite_index));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 120, "Sprite Image Index: " + string(floor(image_index)));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 140, "Blocking: " + string(isBlocking));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 160, "Attacking: " + string(isAttacking));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 140, "Crouching: " + string(isCrouching));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 160, "Blocking: " + string(isBlocking));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Crouch Blocking: " + string(isCrouchBlocking));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 200, "Crouch Attacking: " + string(isCrouchAttacking));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 220, "Attacking: " + string(isAttacking));
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Attack Count: " + string(attackCount));
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 200, "Attack Queued: " + string(attackQueued));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Can Attack: " + string(canAttack));
+//draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Can Attack: " + string(canAttack));
 
 
 // Draw player position and speed info (aligned to top-left)
@@ -38,3 +41,11 @@ draw_text(_playerInfoStartX, _playerInfoStartY + 0, "X Position: " + string(x));
 draw_text(_playerInfoStartX, _playerInfoStartY + 20, "Y Position: " + string(y));
 draw_text(_playerInfoStartX, _playerInfoStartY + 40, "xSpeed: " + string(xSpeed));
 draw_text(_playerInfoStartX, _playerInfoStartY + 60, "ySpeed: " + string(ySpeed));
+
+// Key Checking Information (aligned to top-left)
+draw_text(_playerInfoStartX, _playerInfoStartY + 80, "KeyLeft " + string(keyLeft));
+draw_text(_playerInfoStartX, _playerInfoStartY + 100, "KeyRight " + string(keyRight));
+draw_text(_playerInfoStartX, _playerInfoStartY + 120, "KeyUp " + string(keyUp));
+draw_text(_playerInfoStartX, _playerInfoStartY + 140, "KeyDown " + string(keyDown));
+draw_text(_playerInfoStartX, _playerInfoStartY + 160, "KeyDash " + string(keyDash));
+draw_text(_playerInfoStartX, _playerInfoStartY + 180, "KeyBlock " + string(keyBlock));

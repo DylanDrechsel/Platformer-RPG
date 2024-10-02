@@ -19,7 +19,8 @@ function playerStateMachine(){
 		break;
 		case STATES.CROUCH:
 			checkState();
-			playerCrouch()
+			if (isCrouching && keyBlock && !isSwingAttacking)  playerCrouchBlock();
+            playerCrouch();
 		break;
 		case STATES.HURT:
 		break;
