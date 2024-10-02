@@ -12,10 +12,12 @@ function playerStabAttack(){
 	
 	if (_currentFrame == _stabFrame_1 || _currentFrame == _stabFrame_2 || _currentFrame == _stabFrame_3) {
 		if (!instance_exists(oPlayerAttackHitbox_2)) {
-			attack_2_Hitbox = instance_create_layer(x, y, "Attack_Collisions", oPlayerAttackHitbox_2);
+			var _hitbox = instance_create_layer(x, y, "Attack_Collisions", oPlayerAttackHitbox_2);
+			_hitbox.owner = id;
+			_hitbox.image_xscale *= characterDirection;
 		}
 	} else if (instance_exists(oPlayerAttackHitbox_2)) {
-		instance_destroy(attack_2_Hitbox);	
+		instance_destroy(oPlayerAttackHitbox_2);	
 	}
 	
 	if (_currentFrame >= sprite_get_number(sPlayerAttack_2)) {
