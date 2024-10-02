@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"playerCrouchBlock",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"playerCrouchBlock",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Player/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
