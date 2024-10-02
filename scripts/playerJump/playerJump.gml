@@ -5,7 +5,7 @@ function playerJump(spd){
 	var _currentFrame = floor(image_index);
 	
 	if (isBlocking) isBlocking = false;
-	if (image_speed == 0) image_speed =1;
+	if (image_speed == 0) image_speed = 1;
 	
 	// If the Player is on the ground and hit the Jump button apply the Jump values and change the sprite
 	if (keyUp && isOnGround && !isJumping && !isDashing && !dashJump) {
@@ -23,7 +23,7 @@ function playerJump(spd){
 	}
 	
 	// Sets up the Dash during Jump
-	if (keyDash && isJumping && !isDashing) {
+	if (keyDash && isJumping && !isDashing && !dashJump) {
 		if (sprite_index != sPlayerDash) {
 			sprite_index = sPlayerDash;
 			image_index = _dashMoveStartFrame;
