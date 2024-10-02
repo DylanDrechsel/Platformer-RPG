@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"crouchAttack",
+  "%Name":"sPlayerCrouchAttack",
   "bboxMode":0,
   "bbox_bottom":580,
   "bbox_left":1,
@@ -33,19 +33,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"594e1748-c1e5-486c-b4dd-060a674d13c7","blendMode":0,"displayName":"default","isLocked":false,"name":"594e1748-c1e5-486c-b4dd-060a674d13c7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"crouchAttack",
+  "name":"sPlayerCrouchAttack",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
-    "name":"Player",
-    "path":"folders/All Assets/Player.yy",
+    "name":"WIP",
+    "path":"folders/Player/Sprites/WIP.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"crouchAttack",
+    "%Name":"sPlayerCrouchAttack",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -69,7 +69,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"crouchAttack",
+    "name":"sPlayerCrouchAttack",
     "playback":1,
     "playbackSpeed":25.0,
     "playbackSpeedType":0,
@@ -81,50 +81,50 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a62f9433-116a-4ded-9186-fd1f9cb27958","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a62f9433-116a-4ded-9186-fd1f9cb27958","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ad6d44c5-bdbe-4400-8798-b69c3e4622f0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52cb469c-577d-4248-8403-5006f6175bf7","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52cb469c-577d-4248-8403-5006f6175bf7","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"028479e6-6277-48f6-ac5e-90842b121a38","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e66f5fd9-c312-4135-ac3c-1bad910e562a","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e66f5fd9-c312-4135-ac3c-1bad910e562a","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"10bf8eb6-3745-4b5f-be69-f5dcfa07692b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b45cba7-42a1-407c-b579-610ce98cd549","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b45cba7-42a1-407c-b579-610ce98cd549","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e1b4112d-404f-45e5-be55-fcc05277028e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77d0c463-5509-437e-9490-bee4082db585","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77d0c463-5509-437e-9490-bee4082db585","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d06df448-3e23-45af-8258-706cd87ea59c","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0031b659-a907-4d52-8b4a-118f305c1c91","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0031b659-a907-4d52-8b4a-118f305c1c91","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"414758d7-42b5-4f7f-8554-21099ba31c88","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0764275a-906d-4d88-befc-aa8a1952e699","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0764275a-906d-4d88-befc-aa8a1952e699","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2c4de78e-adb2-4d2d-a481-e0388bc300f6","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd367440-22b0-489a-9ef3-836acf6eef33","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd367440-22b0-489a-9ef3-836acf6eef33","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"973cda6a-a8ee-45b5-ab45-af69c4f4fb7a","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b9a5356-08fd-44b2-baf0-78a2c41d28b1","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b9a5356-08fd-44b2-baf0-78a2c41d28b1","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"83f18502-ef8e-4aba-b97c-7a938b2b0d67","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5270452a-2396-48e0-8a90-c7e4f6bec481","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5270452a-2396-48e0-8a90-c7e4f6bec481","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"27803349-f2d9-4e99-9643-eff7b649a8e4","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45de82f6-2a8b-4262-a549-a5d3ad2be609","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45de82f6-2a8b-4262-a549-a5d3ad2be609","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2634c384-172c-400c-8623-f274b69c9e1c","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbdffeb7-3303-434f-a4d9-d7e8c607c88e","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbdffeb7-3303-434f-a4d9-d7e8c607c88e","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"87b46789-0ff4-4a81-b62d-eea8f9b5cf7a","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f1982b7-ff5d-4328-9d0a-a424fc3b2bac","path":"sprites/crouchAttack/crouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f1982b7-ff5d-4328-9d0a-a424fc3b2bac","path":"sprites/sPlayerCrouchAttack/sPlayerCrouchAttack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"558027f7-c8cb-4cbe-bc7a-9da1844a0331","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":293,
+    "yorigin":290,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -79,8 +79,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Player/Sprites/Attacks.yy",
+    "name":"Player",
+    "path":"folders/All Assets/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
