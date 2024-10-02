@@ -10,3 +10,11 @@ enum STATES {
 	BLOCK,
 	DEAD
 }
+
+// Enemy states
+enum ESTATES {
+	FG_IDLE,
+	FG_FREE,
+	FG_HURT,
+	FG_ATTACK
+}
