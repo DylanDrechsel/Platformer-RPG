@@ -37,6 +37,9 @@
     "name":"sForestGoblinIdle",
     "path":"sprites/sForestGoblinIdle/sForestGoblinIdle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sForestGoblinIdle",
+    "path":"sprites/sForestGoblinIdle/sForestGoblinIdle.yy",
+  },
   "visible":true,
 }
