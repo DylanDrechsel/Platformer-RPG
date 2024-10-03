@@ -14,13 +14,12 @@ function playerStateMachine(){
 			playerDash();
 		break;
 		case STATES.JUMP:
-			checkState();
 			playerJump(isSprinting ? sprintSpd : moveSpd);
+			checkState();
 		break;
 		case STATES.CROUCH:
-			checkState();
-			if (isCrouching && keyBlock && !isSwingAttacking)  playerCrouchBlock();
             playerCrouch();
+			checkState();
 		break;
 		case STATES.HURT:
 		break;

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"playerCrouchAttack",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Player/Scripts.yy",
+    "name":"WIP",
+    "path":"folders/Player/Scripts/WIP.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

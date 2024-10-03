@@ -23,6 +23,7 @@ function playerCrouch(){
 	if (keyDown) {
         if (_currentFrame < _crouchHoldFrame) {
             image_speed = 1;
+			xSpeed = 0;
         } else if (_currentFrame >= _crouchHoldFrame) {
             image_speed = 0;
         }
