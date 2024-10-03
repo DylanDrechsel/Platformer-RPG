@@ -70,6 +70,8 @@
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},},
     {"id":{"name":"sDungeon","path":"sprites/sDungeon/sDungeon.yy",},},
     {"id":{"name":"sForest","path":"sprites/sForest/sForest.yy",},},
+    {"id":{"name":"sForestGoblinAttack","path":"sprites/sForestGoblinAttack/sForestGoblinAttack.yy",},},
+    {"id":{"name":"sForestGoblinDie","path":"sprites/sForestGoblinDie/sForestGoblinDie.yy",},},
     {"id":{"name":"sForestGoblinHit","path":"sprites/sForestGoblinHit/sForestGoblinHit.yy",},},
     {"id":{"name":"sForestGoblinIdle","path":"sprites/sForestGoblinIdle/sForestGoblinIdle.yy",},},
     {"id":{"name":"sForestGoblinRun","path":"sprites/sForestGoblinRun/sForestGoblinRun.yy",},},

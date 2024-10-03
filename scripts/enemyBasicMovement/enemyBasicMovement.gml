@@ -12,13 +12,11 @@ function enemyBasicMovement(_endLeftPosition, _endRightPosition){
 	if (_distanceFromStart >= _endRightPosition && movingRight) {
 		xSpeed = -abs(walkSpd);
 		movingRight = false;
-		//image_xscale = -1;
 		
 		if (alarm[IDLE_ALARM] <= 0) state = ESTATES.FG_IDLE;
 	} else if (_distanceFromStart >= _endLeftPosition && !movingRight) {
 		xSpeed = abs(walkSpd);
 		movingRight = true;
-		//image_xscale = 1;
 		
 		if (alarm[IDLE_ALARM] <= 0) state = ESTATES.FG_IDLE;
 	}
