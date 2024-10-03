@@ -1,4 +1,8 @@
+// Global Variables
 #macro PLAYER_SIZE_REDUCTION		.25
+
+// Alarms
+#macro IDLE_ALARM					  0
 
 enum STATES {
 	IDLE,
