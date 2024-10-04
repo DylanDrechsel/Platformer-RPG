@@ -12,7 +12,7 @@ function playerSwingAttack(){
 	if (_currentFrame == _swingFrame_1 || _currentFrame == _swingFrame_2) {
 		if (!instance_exists(oPlayerAttackHitbox_1)) {
 			var _hitbox = instance_create_layer(x, y, "Attack_Collisions", oPlayerAttackHitbox_1);
-			_hitbox.owner = id;
+			_hitbox.ownerID = id;
 			_hitbox.image_xscale *= characterDirection;
 		}
 	} else if (instance_exists(oPlayerAttackHitbox_1)) {

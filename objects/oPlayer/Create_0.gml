@@ -1,5 +1,7 @@
-// State
+// State & Info Variables
 state = STATES.IDLE;
+type = "Player";
+ownerID = noone;
 
 // Input Variables
 directionInput = 0;

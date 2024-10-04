@@ -11,7 +11,7 @@ function enemyBasicMovement(_endLeftPosition, _endRightPosition){
 	}
 	
 	if (_noGround) {
-		if (alarm[IDLE_ALARM] <= 0) state = ESTATES.FG_IDLE;
+		if (alarm[IDLE_TIMER] <= 0) state = ESTATES.FG_IDLE;
         movingRight = !movingRight;
         xSpeed = movingRight ? abs(walkSpd) : -abs(walkSpd);
     }
@@ -20,12 +20,12 @@ function enemyBasicMovement(_endLeftPosition, _endRightPosition){
 		xSpeed = -abs(walkSpd);
 		movingRight = false;
 		
-		if (alarm[IDLE_ALARM] <= 0) state = ESTATES.FG_IDLE;
+		if (alarm[IDLE_TIMER] <= 0) state = ESTATES.FG_IDLE;
 	} else if (_distanceFromStart >= _endLeftPosition && !movingRight) {
 		xSpeed = abs(walkSpd);
 		movingRight = true;
 		
-		if (alarm[IDLE_ALARM] <= 0) state = ESTATES.FG_IDLE;
+		if (alarm[IDLE_TIMER] <= 0) state = ESTATES.FG_IDLE;
 	}
 	
 	y += ySpeed;

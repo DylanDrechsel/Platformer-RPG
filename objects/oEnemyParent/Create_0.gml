@@ -1,5 +1,7 @@
-// State
+// State & Info Variables
 state = ESTATES.FG_FREE;
+type = noone;
+ownerID = noone;
 
 // Movement Variables
 grav = .25;
@@ -9,6 +11,13 @@ walkSpd = 3;
 runSpd = 5;
 startPosition = x;
 movingRight = true;
+
+// Health Variables
+hpMax = 25;
+hp = hpMax;
+
+// Combat Variables
+hurtTime = 30;
 
 
 // Debug Variables
