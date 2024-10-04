@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"lookAround",
   "parent":{
-    "name":"Enemy Parent",
-    "path":"folders/Enemy/Enemy Parent.yy",
+    "name":"Scripts",
+    "path":"folders/Enemy/Enemy Parent/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

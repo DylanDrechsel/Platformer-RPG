@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"enemyBasicMovement",
+  "%Name":"detectPlayer",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"enemyBasicMovement",
+  "name":"detectPlayer",
   "parent":{
     "name":"Scripts",
     "path":"folders/Enemy/Enemy Parent/Scripts.yy",

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"enemyBasicMovement",
+  "%Name":"damageEntity",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"enemyBasicMovement",
+  "name":"damageEntity",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Enemy/Enemy Parent/Scripts.yy",
+    "path":"folders/Entity/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

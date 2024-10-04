@@ -2,7 +2,8 @@
 #macro PLAYER_SIZE_REDUCTION		.25
 
 // Alarms
-#macro IDLE_ALARM					  0
+#macro IDLE_TIMER					  0
+#macro HURT_TIMER					  1
 
 enum STATES {
 	IDLE,
@@ -20,5 +21,6 @@ enum ESTATES {
 	FG_IDLE,
 	FG_FREE,
 	FG_HURT,
-	FG_ATTACK
+	FG_ATTACK,
+	FG_DEAD
 }

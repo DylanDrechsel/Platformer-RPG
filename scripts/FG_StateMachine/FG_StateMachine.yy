@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"enemyBasicMovement",
+  "%Name":"FG_StateMachine",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"enemyBasicMovement",
+  "name":"FG_StateMachine",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Enemy/Enemy Parent/Scripts.yy",
+    "path":"folders/Enemy/Forest Goblin/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
