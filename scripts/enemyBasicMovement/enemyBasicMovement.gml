@@ -1,6 +1,7 @@
 function enemyBasicMovement(_endLeftPosition, _endRightPosition){
 	var _currentPosition = x;
 	var _distanceFromStart = abs(startPosition - _currentPosition);
+	var _noGround = !place_meeting(x + xSpeed * 12, y + 1, oCol)
 	//xEnemyDelta = startPosition - _currentPosition;
 	
 	if (sprite_index != sForestGoblinRun) {
@@ -8,6 +9,11 @@ function enemyBasicMovement(_endLeftPosition, _endRightPosition){
 		image_index = 0;
 		image_xscale = sign(xSpeed);
 	}
+	
+	if (_noGround) {
+        movingRight = !movingRight;
+        xSpeed = movingRight ? abs(walkSpd) : -abs(walkSpd);
+    }
 	
 	if (_distanceFromStart >= _endRightPosition && movingRight) {
 		xSpeed = -abs(walkSpd);
