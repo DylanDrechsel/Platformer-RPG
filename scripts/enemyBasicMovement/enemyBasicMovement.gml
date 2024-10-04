@@ -11,6 +11,7 @@ function enemyBasicMovement(_endLeftPosition, _endRightPosition){
 	}
 	
 	if (_noGround) {
+		if (alarm[IDLE_ALARM] <= 0) state = ESTATES.FG_IDLE;
         movingRight = !movingRight;
         xSpeed = movingRight ? abs(walkSpd) : -abs(walkSpd);
     }
