@@ -62,7 +62,7 @@
   ],
   "name":"sForestGoblinRun",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Enemy/Forest Goblin/Sprites.yy",
@@ -232,7 +232,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":93,
-    "yorigin":67,
+    "yorigin":72,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -10,6 +10,8 @@ runSpd = 5;
 startPosition = x;
 movingRight = true;
 
+
 // Debug Variables
 //xCheck = false;
 //yCheck = false;
+//noGround = false;
