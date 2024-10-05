@@ -17,6 +17,7 @@ function FG_StateMachine(){
 		case ESTATES.FG_COMBAT:
 		break;
 		case ESTATES.FG_DEAD:
+			FG_Dead();
 		break;
 		default:
 		break;
