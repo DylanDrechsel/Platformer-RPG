@@ -1,5 +1,6 @@
 // State & Info Variables
 state = ESTATES.FG_FREE;
+previousState = ESTATES.FG_IDLE;
 type = noone;
 ownerID = noone;
 
@@ -11,6 +12,9 @@ walkSpd = 3;
 runSpd = 5;
 startPosition = x;
 movingRight = true;
+
+// Detection Variables
+detectionRadius = 500;
 
 // Health Variables
 hpMax = 25;

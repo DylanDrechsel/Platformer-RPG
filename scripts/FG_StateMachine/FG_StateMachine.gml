@@ -13,6 +13,7 @@ function FG_StateMachine(){
 			detectPlayer();
 		break;
 		case ESTATES.FG_HURT:
+			FG_Hurt();
 		break;
 		case ESTATES.FG_COMBAT:
 		break;

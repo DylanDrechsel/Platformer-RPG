@@ -61,6 +61,7 @@
     {"id":{"name":"enemyBasicMovement","path":"scripts/enemyBasicMovement/enemyBasicMovement.yy",},},
     {"id":{"name":"EnumMacros","path":"scripts/EnumMacros/EnumMacros.yy",},},
     {"id":{"name":"FG_Dead","path":"scripts/FG_Dead/FG_Dead.yy",},},
+    {"id":{"name":"FG_Hurt","path":"scripts/FG_Hurt/FG_Hurt.yy",},},
     {"id":{"name":"FG_StateMachine","path":"scripts/FG_StateMachine/FG_StateMachine.yy",},},
     {"id":{"name":"isDead","path":"scripts/isDead/isDead.yy",},},
     {"id":{"name":"isPlayerOnGround","path":"scripts/isPlayerOnGround/isPlayerOnGround.yy",},},
