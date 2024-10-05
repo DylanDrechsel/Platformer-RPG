@@ -17,6 +17,7 @@ hpMax = 25;
 hp = hpMax;
 
 // Combat Variables
+disappearTimer = 500;
 hurtTime = 30;
 
 

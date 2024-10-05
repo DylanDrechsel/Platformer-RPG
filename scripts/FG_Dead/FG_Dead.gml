@@ -7,4 +7,6 @@ function FG_Dead(){
 	}
 	
 	if (_currentFrame >= image_number) image_speed = 0;
+	
+	if (disappearTimer > 0) disappearTimer-- else instance_destroy();
 }
