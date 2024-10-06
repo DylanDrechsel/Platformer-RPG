@@ -1,7 +1,6 @@
 function detectPlayer(){
-	var _radius = 500;
 	var _goblinFacingPlayer = false;
-	var _playerFound = collision_circle(x, y, _radius, oPlayer, false, true);
+	var _playerFound = collision_circle(x, y, detectionRadius, oPlayer, false, true);
 	
 	if (_playerFound != noone) {
         if (image_xscale == 1) {
@@ -11,6 +10,7 @@ function detectPlayer(){
         }
 		
 		if (_goblinFacingPlayer) {
+			previousState = state;
 			state = ESTATES.FG_COMBAT;
 		}
 	}
