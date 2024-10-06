@@ -1,6 +1,6 @@
 // State & Info Variables
 state = ESTATES.FG_FREE;
-previousState = ESTATES.FG_IDLE;
+previousState = noone;
 type = noone;
 ownerID = noone;
 
