@@ -7,18 +7,20 @@ function FG_StateMachine(){
 			addGravity();
 			checkCollision();
 			lookAround();
-			//detectPlayer();
+			detectPlayer();
 		break;
 		case ESTATES.FG_FREE:
 			addGravity();
 			checkCollision();
-			enemyBasicMovement(250, 250);
-			//detectPlayer();
+			enemyBasicMovement(endLeftPosition, endRightPosition);
+			detectPlayer();
 		break;
 		case ESTATES.FG_HURT:
 			FG_Hurt();
 		break;
 		case ESTATES.FG_COMBAT:
+			FG_MoveTowardsPlayer();
+			FG_BasicAttack();
 		break;
 		case ESTATES.FG_DEAD:
 			FG_Dead();

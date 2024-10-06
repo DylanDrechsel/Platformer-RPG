@@ -1,0 +1,3 @@
+function FG_BasicAttack(){
+
+}

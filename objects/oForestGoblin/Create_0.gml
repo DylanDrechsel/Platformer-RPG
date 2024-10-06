@@ -10,3 +10,6 @@ runSpd = 5;
 // Health Variables
 hpMax = 25;
 hp = hpMax;
+
+// Combat Variables
+attackDistance = 80;

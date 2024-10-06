@@ -41,6 +41,22 @@
     {"$GMSpriteFrame":"","%Name":"22051e99-0af1-4d42-a12e-ee3f9beb83ed","name":"22051e99-0af1-4d42-a12e-ee3f9beb83ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"c3461a17-0779-4cf4-b30e-f696b316490b","name":"c3461a17-0779-4cf4-b30e-f696b316490b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"dbf35b00-893f-4ebe-bc46-d86f41fb979f","name":"dbf35b00-893f-4ebe-bc46-d86f41fb979f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"20b9e2cc-eae8-4ab8-8dec-287474bfdffc","name":"20b9e2cc-eae8-4ab8-8dec-287474bfdffc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4ae14f92-9009-4ea6-b09c-0cd392657069","name":"4ae14f92-9009-4ea6-b09c-0cd392657069","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0ec3a3d3-c090-4315-a2bf-27efddaf2c8e","name":"0ec3a3d3-c090-4315-a2bf-27efddaf2c8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b9d8bf5c-4d3c-4881-9974-6cb728ab64fd","name":"b9d8bf5c-4d3c-4881-9974-6cb728ab64fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b52737fb-cd90-439c-a090-ea9f5eb2fbf9","name":"b52737fb-cd90-439c-a090-ea9f5eb2fbf9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ea2b0e16-8bd3-4b1d-8438-6ecbe0771334","name":"ea2b0e16-8bd3-4b1d-8438-6ecbe0771334","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d90e9f6b-a2f9-4989-a251-0e2e2acc48c3","name":"d90e9f6b-a2f9-4989-a251-0e2e2acc48c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dabdc1e9-88a2-4ef2-90bb-b225ed690968","name":"dabdc1e9-88a2-4ef2-90bb-b225ed690968","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"60848e41-d3b0-40a7-9c20-104b8cc62519","name":"60848e41-d3b0-40a7-9c20-104b8cc62519","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"bbb2ecba-6758-4c09-bf91-1d7dc11ed753","name":"bbb2ecba-6758-4c09-bf91-1d7dc11ed753","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e8f82848-5ce1-4ee8-a35c-21017354bbc3","name":"e8f82848-5ce1-4ee8-a35c-21017354bbc3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f99476d0-bf67-45fd-83bd-91eb539057f9","name":"f99476d0-bf67-45fd-83bd-91eb539057f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f693f133-94da-4218-8f5e-34e497f3eecc","name":"f693f133-94da-4218-8f5e-34e497f3eecc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0e8118de-651e-4cc6-bf0f-70693fe505b2","name":"0e8118de-651e-4cc6-bf0f-70693fe505b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0c6fa283-d471-48db-ab5f-e83b5108a1ea","name":"0c6fa283-d471-48db-ab5f-e83b5108a1ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"36e4c9c4-0cbd-4e90-857c-f58153052a58","name":"36e4c9c4-0cbd-4e90-857c-f58153052a58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"7ddba35a-4e5e-4e73-8a2e-617cd89ed569","name":"7ddba35a-4e5e-4e73-8a2e-617cd89ed569","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"5c534fd3-8f4a-4e98-ae8d-2ad5a4c310ad","name":"5c534fd3-8f4a-4e98-ae8d-2ad5a4c310ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"09400eeb-8283-4b69-8d22-a7f87d0dbe5c","name":"09400eeb-8283-4b69-8d22-a7f87d0dbe5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -190,8 +206,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Enemy/Forest Goblin/Sprites.yy",
+    "name":"Attacks",
+    "path":"folders/Enemy/Forest Goblin/Sprites/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -214,7 +230,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":166.0,
+    "length":182.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -321,416 +337,464 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dbf35b00-893f-4ebe-bc46-d86f41fb979f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"dd98c2b5-16a9-48bb-94c6-89b6cd798856","IsCreationKey":false,"Key":28.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20b9e2cc-eae8-4ab8-8dec-287474bfdffc","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cebd46af-de79-4ab7-8323-274e1e62d737","IsCreationKey":false,"Key":29.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ae14f92-9009-4ea6-b09c-0cd392657069","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b39528e-8885-4dd9-b126-f2742dceab0d","IsCreationKey":false,"Key":30.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ec3a3d3-c090-4315-a2bf-27efddaf2c8e","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0069e9fa-1bc3-4e3d-899a-65af7418f297","IsCreationKey":false,"Key":31.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9d8bf5c-4d3c-4881-9974-6cb728ab64fd","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a74ea835-eac5-4a54-9c0e-21073838a4cb","IsCreationKey":false,"Key":32.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b52737fb-cd90-439c-a090-ea9f5eb2fbf9","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9b0503c3-2487-40a7-b8b9-41f08a054701","IsCreationKey":false,"Key":33.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea2b0e16-8bd3-4b1d-8438-6ecbe0771334","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dae67327-cd68-4397-8228-4544f17f7f13","IsCreationKey":false,"Key":34.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d90e9f6b-a2f9-4989-a251-0e2e2acc48c3","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dc30bde2-8195-46c3-87c0-e44645f36cc2","IsCreationKey":false,"Key":35.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dabdc1e9-88a2-4ef2-90bb-b225ed690968","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4c2f4b17-3824-4761-8596-ab22a68ffc10","IsCreationKey":false,"Key":36.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60848e41-d3b0-40a7-9c20-104b8cc62519","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"095fe8b7-f872-42e9-905d-d13257bef264","IsCreationKey":false,"Key":37.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbb2ecba-6758-4c09-bf91-1d7dc11ed753","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ed4888f6-b36f-497a-bd94-64196b882ea5","IsCreationKey":false,"Key":38.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8f82848-5ce1-4ee8-a35c-21017354bbc3","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3ecf9622-635f-4050-8439-cc906622f82b","IsCreationKey":false,"Key":39.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f99476d0-bf67-45fd-83bd-91eb539057f9","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3b1105f7-6a7f-40dc-9707-3d18cc8e2705","IsCreationKey":false,"Key":40.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f693f133-94da-4218-8f5e-34e497f3eecc","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0074cd10-be87-4157-b789-681cec6084a3","IsCreationKey":false,"Key":41.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e8118de-651e-4cc6-bf0f-70693fe505b2","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"77118286-838d-47a2-8ac8-ea08ef0683a3","IsCreationKey":false,"Key":42.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c6fa283-d471-48db-ab5f-e83b5108a1ea","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ab18ae27-49dc-448d-92af-6932a01c6ddf","IsCreationKey":false,"Key":43.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"36e4c9c4-0cbd-4e90-857c-f58153052a58","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0ad51b23-8d4b-44a6-9380-7ecfc044180e","IsCreationKey":false,"Key":44.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ddba35a-4e5e-4e73-8a2e-617cd89ed569","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"398ba30c-c2c6-4a5c-9a5e-5a6b2b91978e","IsCreationKey":false,"Key":29.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"398ba30c-c2c6-4a5c-9a5e-5a6b2b91978e","IsCreationKey":false,"Key":45.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c534fd3-8f4a-4e98-ae8d-2ad5a4c310ad","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"80b5be8e-2420-4985-a5c5-c237f86962f2","IsCreationKey":false,"Key":30.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"80b5be8e-2420-4985-a5c5-c237f86962f2","IsCreationKey":false,"Key":46.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"09400eeb-8283-4b69-8d22-a7f87d0dbe5c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9ba413d4-a241-4660-af51-3385804d7662","IsCreationKey":false,"Key":31.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9ba413d4-a241-4660-af51-3385804d7662","IsCreationKey":false,"Key":47.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49748d11-7a36-4f8f-b626-06dff39363d1","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad403c15-1db3-4fbb-8974-c2cbb7040e75","IsCreationKey":false,"Key":32.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ad403c15-1db3-4fbb-8974-c2cbb7040e75","IsCreationKey":false,"Key":48.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"13813cf2-7eb3-4adc-bc74-0783bccc02eb","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"83acab80-db19-40d4-91db-50cbcf14f058","IsCreationKey":false,"Key":33.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"83acab80-db19-40d4-91db-50cbcf14f058","IsCreationKey":false,"Key":49.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9aba1403-b801-4975-a3a8-ebbaafc68e65","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3b564f6a-434a-440b-9bb2-bcabc0fce2c9","IsCreationKey":false,"Key":34.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3b564f6a-434a-440b-9bb2-bcabc0fce2c9","IsCreationKey":false,"Key":50.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0ecc341-c8a9-4138-a7d5-aef9bb02387f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"37cf5654-e44f-4426-b1c1-ba27f0e24347","IsCreationKey":false,"Key":35.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"37cf5654-e44f-4426-b1c1-ba27f0e24347","IsCreationKey":false,"Key":51.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e3f3bde-cf45-4bcc-b95d-eddc69d21246","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"43031a95-33f9-4bd9-bc9e-6ba1de2e70c2","IsCreationKey":false,"Key":36.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"43031a95-33f9-4bd9-bc9e-6ba1de2e70c2","IsCreationKey":false,"Key":52.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e00a94d5-9fb6-412e-abc1-fe479d43c13b","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"92f62729-5368-46b0-9af2-e02557106811","IsCreationKey":false,"Key":37.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"92f62729-5368-46b0-9af2-e02557106811","IsCreationKey":false,"Key":53.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0070be3c-c20c-4952-ae74-5dc67318a422","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d8d40bb-7ee9-432c-80ae-f6e6e25c0a23","IsCreationKey":false,"Key":38.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2d8d40bb-7ee9-432c-80ae-f6e6e25c0a23","IsCreationKey":false,"Key":54.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"79c6f954-3cf9-4a2b-a4e6-571691c06576","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"547196e1-5a5c-4eec-9548-8f7bd5c86f27","IsCreationKey":false,"Key":39.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"547196e1-5a5c-4eec-9548-8f7bd5c86f27","IsCreationKey":false,"Key":55.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90d96a87-1590-48b9-b717-669aca797b34","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"02858eec-e1ef-4f08-98a7-b329e2c7665d","IsCreationKey":false,"Key":40.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"02858eec-e1ef-4f08-98a7-b329e2c7665d","IsCreationKey":false,"Key":56.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"257fb08c-f975-48e8-827a-086e91224845","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4d216fe2-e027-40f9-a912-65ab201e32c9","IsCreationKey":false,"Key":41.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"4d216fe2-e027-40f9-a912-65ab201e32c9","IsCreationKey":false,"Key":57.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"656e27ac-076f-4820-b2e4-bc55c2bff441","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"59b3733a-6bcd-402f-8a11-aa17e4cdef20","IsCreationKey":false,"Key":42.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"59b3733a-6bcd-402f-8a11-aa17e4cdef20","IsCreationKey":false,"Key":58.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0de16df9-6afd-484c-90f7-cbddfc6ce089","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"730a1dba-665b-4348-aa21-a4bca82a4e2a","IsCreationKey":false,"Key":43.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"730a1dba-665b-4348-aa21-a4bca82a4e2a","IsCreationKey":false,"Key":59.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3ea390d-e8f8-46bf-aeae-8257ae007d57","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b3bf3f65-a105-47d4-ac75-e002b8597d29","IsCreationKey":false,"Key":44.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"b3bf3f65-a105-47d4-ac75-e002b8597d29","IsCreationKey":false,"Key":60.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"713c84b9-17f4-4afc-865f-a04f37854701","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3457a81e-3038-4cf4-a071-0f993cdb3903","IsCreationKey":false,"Key":45.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3457a81e-3038-4cf4-a071-0f993cdb3903","IsCreationKey":false,"Key":61.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c32cad1e-b636-480a-9449-f947eefc5c76","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"82da962d-2145-4d7c-8591-c6fd1f9f399c","IsCreationKey":false,"Key":46.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"82da962d-2145-4d7c-8591-c6fd1f9f399c","IsCreationKey":false,"Key":62.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f82361c0-8dd1-4045-ae2d-67242489506d","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"49f3001b-3156-422d-b023-b9f24c4d3cef","IsCreationKey":false,"Key":47.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"49f3001b-3156-422d-b023-b9f24c4d3cef","IsCreationKey":false,"Key":63.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3befb119-a9c7-4184-804e-0073af15a0ae","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35c18b3f-1e8f-4907-95b4-2b7f64f72e7d","IsCreationKey":false,"Key":48.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"35c18b3f-1e8f-4907-95b4-2b7f64f72e7d","IsCreationKey":false,"Key":64.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5605ea5-12cc-423d-8647-2ea37a75f92e","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c3edb5f7-e1c6-48ff-becf-cedb204dde7f","IsCreationKey":false,"Key":49.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c3edb5f7-e1c6-48ff-becf-cedb204dde7f","IsCreationKey":false,"Key":65.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b95275f-b12b-49e4-b549-d203e6c822a4","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a8d42cd-eccb-4d01-ab9e-094601996af3","IsCreationKey":false,"Key":50.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6a8d42cd-eccb-4d01-ab9e-094601996af3","IsCreationKey":false,"Key":66.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3effd530-2237-4f58-a350-364b8f47a5aa","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e6d00e9a-2710-4a52-9e87-0060ed358e03","IsCreationKey":false,"Key":51.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e6d00e9a-2710-4a52-9e87-0060ed358e03","IsCreationKey":false,"Key":67.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef4b6b6f-9080-43e8-826f-a20bec3c4f84","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5050e1b0-3bb7-4b72-ba5f-fa60ca89d55f","IsCreationKey":false,"Key":52.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5050e1b0-3bb7-4b72-ba5f-fa60ca89d55f","IsCreationKey":false,"Key":68.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f393e3d9-10b7-440c-a590-b1cdb75564b6","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"195b0a24-a107-439b-b336-18b6a4d4ab85","IsCreationKey":false,"Key":53.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"195b0a24-a107-439b-b336-18b6a4d4ab85","IsCreationKey":false,"Key":69.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7eb04e13-24f4-4a3c-a511-fde83aaf3587","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5f9b6186-6a23-47df-9452-5e4ea69e5d11","IsCreationKey":false,"Key":54.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5f9b6186-6a23-47df-9452-5e4ea69e5d11","IsCreationKey":false,"Key":70.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f59815e-7210-490a-aa58-e7d9b871b056","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c8d6e86d-f615-4d41-b565-1332328fb68f","IsCreationKey":false,"Key":55.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c8d6e86d-f615-4d41-b565-1332328fb68f","IsCreationKey":false,"Key":71.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3846ee8-575c-4406-b377-a859ebd70589","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"618caaf5-5eca-47de-a187-770c3814aa33","IsCreationKey":false,"Key":56.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"618caaf5-5eca-47de-a187-770c3814aa33","IsCreationKey":false,"Key":72.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9a2333f-95d9-40a1-adc6-2047cfcff446","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"74e703e7-a751-4568-906a-fcf4cfc1bedd","IsCreationKey":false,"Key":57.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"74e703e7-a751-4568-906a-fcf4cfc1bedd","IsCreationKey":false,"Key":73.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"81b76b32-85ad-4811-8c3e-28377d3462ea","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"07ae5b88-c5d3-44ec-99ee-872601535642","IsCreationKey":false,"Key":58.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"07ae5b88-c5d3-44ec-99ee-872601535642","IsCreationKey":false,"Key":74.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ef808ca-de0b-4dc8-8a68-e2ecee35ff92","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f523e730-4dcc-42c5-8d3d-37a11dfdde7d","IsCreationKey":false,"Key":59.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"f523e730-4dcc-42c5-8d3d-37a11dfdde7d","IsCreationKey":false,"Key":75.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47a77c71-6ec0-49fc-a36b-31818ffd6b48","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"13c67d1b-19a1-4d24-b4c6-7f56fac8ef05","IsCreationKey":false,"Key":60.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"13c67d1b-19a1-4d24-b4c6-7f56fac8ef05","IsCreationKey":false,"Key":76.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf0eb2b4-5d94-4830-9562-d26a358db6d7","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"54c78505-51ef-4098-8643-8fc9c0c24615","IsCreationKey":false,"Key":61.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"54c78505-51ef-4098-8643-8fc9c0c24615","IsCreationKey":false,"Key":77.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22915f8f-6a77-45b8-b652-03eadfc2212c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"769d0c5e-de01-4f39-bdb7-bb105b481d20","IsCreationKey":false,"Key":62.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"769d0c5e-de01-4f39-bdb7-bb105b481d20","IsCreationKey":false,"Key":78.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a51801a7-1227-40b4-a24a-6ae08e3dab87","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d4516e51-f8e6-4df0-bff5-fbf7c3eb7dac","IsCreationKey":false,"Key":63.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"d4516e51-f8e6-4df0-bff5-fbf7c3eb7dac","IsCreationKey":false,"Key":79.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"86a75061-94ea-4789-ba5b-f693154ffbac","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a965183d-3051-438a-853f-8735c573b0ec","IsCreationKey":false,"Key":64.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"a965183d-3051-438a-853f-8735c573b0ec","IsCreationKey":false,"Key":80.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94b2c936-db65-4751-b59f-aa952101187f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c48366ac-02ec-4c45-a24c-cd0df4df728e","IsCreationKey":false,"Key":65.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c48366ac-02ec-4c45-a24c-cd0df4df728e","IsCreationKey":false,"Key":81.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"17b350d5-a668-4060-95e5-665ba8f2b9e8","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"672608dd-c3c2-4356-bbac-f92613e54365","IsCreationKey":false,"Key":66.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"672608dd-c3c2-4356-bbac-f92613e54365","IsCreationKey":false,"Key":82.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0240c0e1-2056-403e-93c0-5f6d3d0f60f7","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1913c2e3-4052-4e02-a436-d6a617738c69","IsCreationKey":false,"Key":67.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1913c2e3-4052-4e02-a436-d6a617738c69","IsCreationKey":false,"Key":83.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3f7749fd-ba77-45d9-8290-f934133a96cb","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"48e20c79-d898-4935-ad13-18eaf363330e","IsCreationKey":false,"Key":68.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"48e20c79-d898-4935-ad13-18eaf363330e","IsCreationKey":false,"Key":84.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6c1dbbc-d37d-46bb-8246-f2bceeb2c70a","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a4ddb33c-e982-4a0c-a1a3-0eec682cb24a","IsCreationKey":false,"Key":69.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"a4ddb33c-e982-4a0c-a1a3-0eec682cb24a","IsCreationKey":false,"Key":85.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"413169a2-98cf-4174-8dbc-0c5aeb616707","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bec2f0e9-50fd-4bc7-b590-5b46352b7497","IsCreationKey":false,"Key":70.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"bec2f0e9-50fd-4bc7-b590-5b46352b7497","IsCreationKey":false,"Key":86.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6cc609e0-75b2-4e28-9e9c-720b7a4e174e","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"099a95be-c9c7-410e-b588-20f6c67b6dfa","IsCreationKey":false,"Key":71.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"099a95be-c9c7-410e-b588-20f6c67b6dfa","IsCreationKey":false,"Key":87.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab14b99e-904f-4408-874c-fd2a90cd5179","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e8b0583-c084-44b5-99a8-2e2aa1526295","IsCreationKey":false,"Key":72.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5e8b0583-c084-44b5-99a8-2e2aa1526295","IsCreationKey":false,"Key":88.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3dd10d7c-1e14-42c5-97cb-34b1f74bfafd","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4d719875-fc28-4242-bfec-8f23011b6744","IsCreationKey":false,"Key":73.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"4d719875-fc28-4242-bfec-8f23011b6744","IsCreationKey":false,"Key":89.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4475237-0f8f-4bf0-8e09-a9084cf80f05","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"711f7181-86d9-4283-bc41-709a376d2ca2","IsCreationKey":false,"Key":74.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"711f7181-86d9-4283-bc41-709a376d2ca2","IsCreationKey":false,"Key":90.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62920cec-dcc5-48d3-8ab6-73da5dcf81b6","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"95f576c7-7501-4e47-be7b-2ccc77fc680d","IsCreationKey":false,"Key":75.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"95f576c7-7501-4e47-be7b-2ccc77fc680d","IsCreationKey":false,"Key":91.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b8ae3d57-342d-4a49-b4af-54bd335bc0a2","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9370fbd5-ef34-4b83-b35d-4f65d2257509","IsCreationKey":false,"Key":76.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9370fbd5-ef34-4b83-b35d-4f65d2257509","IsCreationKey":false,"Key":92.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b7f0dbc-da7b-4907-ab04-727f07ce7c54","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da9872fb-1689-415f-b13f-59cb7b37d4dc","IsCreationKey":false,"Key":77.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"da9872fb-1689-415f-b13f-59cb7b37d4dc","IsCreationKey":false,"Key":93.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d432d883-2f71-4a72-a4f8-db397396db1c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b08fc355-a656-496e-8cb1-05bfda44753d","IsCreationKey":false,"Key":78.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"b08fc355-a656-496e-8cb1-05bfda44753d","IsCreationKey":false,"Key":94.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78d574b2-400f-40d4-be52-1019cec4893a","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f136f0f8-e02f-4360-ab8e-7a81208c1f0e","IsCreationKey":false,"Key":79.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"f136f0f8-e02f-4360-ab8e-7a81208c1f0e","IsCreationKey":false,"Key":95.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02e2359c-dccd-41e1-a9ab-05af4794e40c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bce76fa8-f7a9-40a9-9eb5-fc3fb5c867ef","IsCreationKey":false,"Key":80.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"bce76fa8-f7a9-40a9-9eb5-fc3fb5c867ef","IsCreationKey":false,"Key":96.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cdfad58b-d01b-4f17-96d4-44b0f75bb096","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2fcad664-d30b-470f-b8a7-f8b438a84194","IsCreationKey":false,"Key":81.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2fcad664-d30b-470f-b8a7-f8b438a84194","IsCreationKey":false,"Key":97.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b969821e-0239-406a-ad29-62f8223d241c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6ddd85be-663a-47ac-b4c8-48cb4ef742c0","IsCreationKey":false,"Key":82.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6ddd85be-663a-47ac-b4c8-48cb4ef742c0","IsCreationKey":false,"Key":98.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a012a34-050a-478d-9e97-cd1c97b2b8d8","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"221c227c-95b6-48f6-aa1b-03659f86ba17","IsCreationKey":false,"Key":83.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"221c227c-95b6-48f6-aa1b-03659f86ba17","IsCreationKey":false,"Key":99.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1effcb48-8fff-449d-a4cb-b2ab3de20f1d","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eaf41da6-fc27-4eae-b4ad-5948bb43542a","IsCreationKey":false,"Key":84.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"eaf41da6-fc27-4eae-b4ad-5948bb43542a","IsCreationKey":false,"Key":100.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78b78b8c-ee26-4ce0-a5d8-4eada54406cc","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0531fdef-fe0e-4206-8281-676c88262851","IsCreationKey":false,"Key":85.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"0531fdef-fe0e-4206-8281-676c88262851","IsCreationKey":false,"Key":101.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d70e7d0-71fa-4f0a-b476-e35aa980fe36","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"37bb8d55-0176-49cd-b7ba-ae9eaf37b219","IsCreationKey":false,"Key":86.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"37bb8d55-0176-49cd-b7ba-ae9eaf37b219","IsCreationKey":false,"Key":102.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc9f5b10-b06e-4f98-a4d7-d2b7a1733b93","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2c592377-83e3-40ef-9a7f-d591db3794b0","IsCreationKey":false,"Key":87.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2c592377-83e3-40ef-9a7f-d591db3794b0","IsCreationKey":false,"Key":103.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0888dab6-98a4-4fa1-86e1-df58e263e86c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d53200a-17e8-4873-82d9-2a2fb66e938e","IsCreationKey":false,"Key":88.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2d53200a-17e8-4873-82d9-2a2fb66e938e","IsCreationKey":false,"Key":104.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24cc4550-8a35-4d8e-9a14-b2474dc3d972","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b250f37d-4c82-463c-b61e-f9931f741b8f","IsCreationKey":false,"Key":89.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"b250f37d-4c82-463c-b61e-f9931f741b8f","IsCreationKey":false,"Key":105.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38cec5c9-2bf3-431b-b662-845eef07bde8","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91533054-a18a-4434-9f76-b9cd14f1a3ea","IsCreationKey":false,"Key":90.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"91533054-a18a-4434-9f76-b9cd14f1a3ea","IsCreationKey":false,"Key":106.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bafac2a0-08a2-4471-b308-934da8abf5da","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6d45507c-6613-40b9-9aa4-888fc13573e6","IsCreationKey":false,"Key":91.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6d45507c-6613-40b9-9aa4-888fc13573e6","IsCreationKey":false,"Key":107.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3db8ca0-bfd8-4ad2-9acb-06a476fe6aa1","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7bc1cf17-f135-4f3c-887c-bf1385d62914","IsCreationKey":false,"Key":92.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"7bc1cf17-f135-4f3c-887c-bf1385d62914","IsCreationKey":false,"Key":108.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46703cbb-b0d2-43f5-aa2d-120d576592d7","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"98b2bf62-d97e-45d7-a82d-e695b388355b","IsCreationKey":false,"Key":93.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"98b2bf62-d97e-45d7-a82d-e695b388355b","IsCreationKey":false,"Key":109.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fff6f9ea-8851-4d2b-b36c-97b7d1041f91","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"27ce30d5-9476-42a0-832e-54fd04ff67c0","IsCreationKey":false,"Key":94.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"27ce30d5-9476-42a0-832e-54fd04ff67c0","IsCreationKey":false,"Key":110.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ce3dac69-b887-4710-8ca8-a7e59cbee30d","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"16c71a79-f269-4f6f-8a05-d22c437e400d","IsCreationKey":false,"Key":95.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"16c71a79-f269-4f6f-8a05-d22c437e400d","IsCreationKey":false,"Key":111.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b56e8e2-6d2d-456a-a193-2328a5dad1e1","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e1c66ba6-a639-4f44-a87f-a89cf24fcd3f","IsCreationKey":false,"Key":96.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e1c66ba6-a639-4f44-a87f-a89cf24fcd3f","IsCreationKey":false,"Key":112.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"479fff31-e87c-4113-8739-e0a8cfa2ce51","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"423734bf-c208-4e9e-ac3c-bc7178a12ea7","IsCreationKey":false,"Key":97.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"423734bf-c208-4e9e-ac3c-bc7178a12ea7","IsCreationKey":false,"Key":113.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c731d8fc-fbe3-46a3-8304-95360db32f7f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1ad916e-03b1-456a-9914-f526772dfe30","IsCreationKey":false,"Key":98.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c1ad916e-03b1-456a-9914-f526772dfe30","IsCreationKey":false,"Key":114.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"968c867a-6f9c-4044-acfa-cbebf1fcf544","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ba9eafd1-46c2-46b4-8b58-53904a1658dc","IsCreationKey":false,"Key":99.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ba9eafd1-46c2-46b4-8b58-53904a1658dc","IsCreationKey":false,"Key":115.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"96044b2c-b67d-4071-93f3-46bdcb783ef5","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"641f92a0-d0c0-44c9-9ffc-09c5310cebed","IsCreationKey":false,"Key":100.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"641f92a0-d0c0-44c9-9ffc-09c5310cebed","IsCreationKey":false,"Key":116.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a33bb48-4263-4067-a8fe-b83c6240cd4e","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad1ac70b-6376-4972-bc6b-9fcfcd700201","IsCreationKey":false,"Key":101.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ad1ac70b-6376-4972-bc6b-9fcfcd700201","IsCreationKey":false,"Key":117.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ab54acd-a2b4-472f-813b-9c1523b6b184","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fe2cf268-955f-4e0f-9ffd-030c82d53385","IsCreationKey":false,"Key":102.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"fe2cf268-955f-4e0f-9ffd-030c82d53385","IsCreationKey":false,"Key":118.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ff16f86-b73e-4f4d-a60f-7731f75e7c1e","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"98c05534-54e7-4146-a99e-1369d8b399cd","IsCreationKey":false,"Key":103.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"98c05534-54e7-4146-a99e-1369d8b399cd","IsCreationKey":false,"Key":119.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b31a5be6-ba9b-4a0e-8017-fb3fdd36cc2d","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3b4e0928-74dd-439d-a85e-7a434e345b07","IsCreationKey":false,"Key":104.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3b4e0928-74dd-439d-a85e-7a434e345b07","IsCreationKey":false,"Key":120.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"378f2abf-ddc3-4e77-88f0-3c6f8131bb22","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ed06c57d-cf86-4d18-93ee-8ac57af32cda","IsCreationKey":false,"Key":105.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ed06c57d-cf86-4d18-93ee-8ac57af32cda","IsCreationKey":false,"Key":121.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a43d0888-30f2-4c19-b55e-77384c4a43c8","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"58d87f8c-275d-438c-8cfc-8a5740260a86","IsCreationKey":false,"Key":106.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"58d87f8c-275d-438c-8cfc-8a5740260a86","IsCreationKey":false,"Key":122.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4879fe20-94a6-4d67-b781-47a89b2366b1","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3c8a416e-b68b-41d0-946a-4787eb89d3f3","IsCreationKey":false,"Key":107.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3c8a416e-b68b-41d0-946a-4787eb89d3f3","IsCreationKey":false,"Key":123.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a20013fd-47ac-4f28-b2f0-2cd0d55f4af6","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5987ced5-b937-45ac-ad4f-5461d0ada46a","IsCreationKey":false,"Key":108.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5987ced5-b937-45ac-ad4f-5461d0ada46a","IsCreationKey":false,"Key":124.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1894b368-86f9-44f5-9a3c-30b86594123c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a8413022-d741-43ef-af98-7fe46bad9895","IsCreationKey":false,"Key":109.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"a8413022-d741-43ef-af98-7fe46bad9895","IsCreationKey":false,"Key":125.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"847dbfcb-f06c-4532-9d3f-359de8a4ff16","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"69b3a913-c8c7-4a64-a6e1-8c7def80f603","IsCreationKey":false,"Key":110.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"69b3a913-c8c7-4a64-a6e1-8c7def80f603","IsCreationKey":false,"Key":126.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0fffa34-cd95-4b03-9437-7d5dcf2b99ea","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"56338ccc-cac8-4d0e-ba2f-53d7b0fa8789","IsCreationKey":false,"Key":111.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"56338ccc-cac8-4d0e-ba2f-53d7b0fa8789","IsCreationKey":false,"Key":127.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2773ca4-5c62-41be-ab62-a7ecbc1341ba","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b489bcdd-9ce1-4fe9-9dd0-1b5105420331","IsCreationKey":false,"Key":112.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"b489bcdd-9ce1-4fe9-9dd0-1b5105420331","IsCreationKey":false,"Key":128.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7595d577-25cb-4118-9661-0fa0daed60f3","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7ea63dee-bedc-4738-93ec-fb9eac3f7d38","IsCreationKey":false,"Key":113.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"7ea63dee-bedc-4738-93ec-fb9eac3f7d38","IsCreationKey":false,"Key":129.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a8d9c466-2143-43da-bb84-147cdb21557c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1a1bb7e0-aa1b-44bb-b05c-727cc946b4bc","IsCreationKey":false,"Key":114.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1a1bb7e0-aa1b-44bb-b05c-727cc946b4bc","IsCreationKey":false,"Key":130.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4b834de-d8c2-4200-9f7e-101f94c9b543","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"575fda40-c8a2-4aa8-b28a-ffeb3c992218","IsCreationKey":false,"Key":115.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"575fda40-c8a2-4aa8-b28a-ffeb3c992218","IsCreationKey":false,"Key":131.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc5b2c18-a9db-4661-a711-fca15f93192b","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"394637a6-9e98-415d-a5d2-57baec1fc0f9","IsCreationKey":false,"Key":116.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"394637a6-9e98-415d-a5d2-57baec1fc0f9","IsCreationKey":false,"Key":132.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7134afa-5150-4548-a94f-9d6642c9020f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a639fbff-fc0f-4aa9-8f35-09a639404114","IsCreationKey":false,"Key":117.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"a639fbff-fc0f-4aa9-8f35-09a639404114","IsCreationKey":false,"Key":133.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e5eea13-72be-483b-b3d7-63cd58e21fba","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9251aee6-b9fe-4388-967f-ffcbd8354aec","IsCreationKey":false,"Key":118.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9251aee6-b9fe-4388-967f-ffcbd8354aec","IsCreationKey":false,"Key":134.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cc1494e-fab5-48d6-98e1-bf0d90ac66d0","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cbf95179-a7a2-46ba-bcf2-c1ae414fc1e5","IsCreationKey":false,"Key":119.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"cbf95179-a7a2-46ba-bcf2-c1ae414fc1e5","IsCreationKey":false,"Key":135.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e724d6a2-fcca-47d5-a421-726d41326625","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"050e5f03-99fc-4b9e-b53b-aa8a9f515ba2","IsCreationKey":false,"Key":120.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"050e5f03-99fc-4b9e-b53b-aa8a9f515ba2","IsCreationKey":false,"Key":136.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bcb0fbde-28e7-4d07-90a1-e3216b84610a","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fa65e5fc-da86-442e-8164-84daa0529648","IsCreationKey":false,"Key":121.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"fa65e5fc-da86-442e-8164-84daa0529648","IsCreationKey":false,"Key":137.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9278405d-70a0-47b5-8b38-17e4fe78bf3c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b989bddf-b79d-4d15-b4db-864f6259af47","IsCreationKey":false,"Key":122.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"b989bddf-b79d-4d15-b4db-864f6259af47","IsCreationKey":false,"Key":138.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82179314-e460-44e7-bad6-6e21a3cfdd90","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"18cdbacb-7870-4575-8dce-5cfa62f05727","IsCreationKey":false,"Key":123.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"18cdbacb-7870-4575-8dce-5cfa62f05727","IsCreationKey":false,"Key":139.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a147d41c-4281-44df-aeea-d37f70cfbb1c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d09fd0f5-cf4f-4d02-98d8-26bd8397661c","IsCreationKey":false,"Key":124.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"d09fd0f5-cf4f-4d02-98d8-26bd8397661c","IsCreationKey":false,"Key":140.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9600db6-23be-4af1-a08c-325fab14cdca","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e4fd200c-2631-4055-b306-3869b267095f","IsCreationKey":false,"Key":125.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e4fd200c-2631-4055-b306-3869b267095f","IsCreationKey":false,"Key":141.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c2e2dbd-7413-447f-8be0-5f33e9af4b13","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ec2eb1f7-5b6e-4cf9-a149-80b0761673ea","IsCreationKey":false,"Key":126.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ec2eb1f7-5b6e-4cf9-a149-80b0761673ea","IsCreationKey":false,"Key":142.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05167e2a-85e2-471b-942c-cce8f0e3654f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bcfc6026-f478-468a-83d9-104a7c8c6071","IsCreationKey":false,"Key":127.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"bcfc6026-f478-468a-83d9-104a7c8c6071","IsCreationKey":false,"Key":143.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"19a4d316-ac22-438d-9f58-935f4936d3bc","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"30e8bb0e-a79e-4426-8ca0-aa060aa3b190","IsCreationKey":false,"Key":128.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"30e8bb0e-a79e-4426-8ca0-aa060aa3b190","IsCreationKey":false,"Key":144.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90bf8915-b7e9-4f06-ae92-d5c2942f10e1","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"efc86535-6119-4602-a7b4-7fb6f2a81469","IsCreationKey":false,"Key":129.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"efc86535-6119-4602-a7b4-7fb6f2a81469","IsCreationKey":false,"Key":145.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16ddcd44-e694-4a13-8397-fbfc7fb87132","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ebc6717e-aa8b-4e8f-a031-86e783be9737","IsCreationKey":false,"Key":130.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ebc6717e-aa8b-4e8f-a031-86e783be9737","IsCreationKey":false,"Key":146.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06e2517a-1720-45d5-bab7-639203977634","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"34de9b50-c85f-4d4e-9de8-e1d33f685dee","IsCreationKey":false,"Key":131.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"34de9b50-c85f-4d4e-9de8-e1d33f685dee","IsCreationKey":false,"Key":147.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"662026d2-d670-4643-82dc-f3110351caa4","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f4e44974-2538-4400-9908-243beffa8457","IsCreationKey":false,"Key":132.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"f4e44974-2538-4400-9908-243beffa8457","IsCreationKey":false,"Key":148.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"adb5aa48-9db0-4579-bf1b-d8dffe8a1572","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4e79e1c9-6282-4699-8662-d2b13af5f9f2","IsCreationKey":false,"Key":133.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"4e79e1c9-6282-4699-8662-d2b13af5f9f2","IsCreationKey":false,"Key":149.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf0c49b1-6f72-4f1b-a056-d94de9139d7c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"00e8998e-ad2d-40a0-91de-1b6690f37415","IsCreationKey":false,"Key":134.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"00e8998e-ad2d-40a0-91de-1b6690f37415","IsCreationKey":false,"Key":150.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50a234f2-60af-4205-87fd-8f11d21015e5","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"19c36fc2-6c70-4f5e-9d29-8c835707ecf2","IsCreationKey":false,"Key":135.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"19c36fc2-6c70-4f5e-9d29-8c835707ecf2","IsCreationKey":false,"Key":151.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"310e1b94-9435-432f-b5e9-e91143d48f0f","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ca065df8-57b3-4250-92cd-bc1212c490bc","IsCreationKey":false,"Key":136.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ca065df8-57b3-4250-92cd-bc1212c490bc","IsCreationKey":false,"Key":152.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c0bcdf2-b1e0-4439-9c8e-9379bb9000d8","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"07512973-24ec-473d-b014-356da273cc22","IsCreationKey":false,"Key":137.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"07512973-24ec-473d-b014-356da273cc22","IsCreationKey":false,"Key":153.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5ba80e0-c6a6-460b-a710-89ec48681443","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8b660677-8142-40bc-a3fe-368056eb7115","IsCreationKey":false,"Key":138.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"8b660677-8142-40bc-a3fe-368056eb7115","IsCreationKey":false,"Key":154.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ba54a10-c558-4bd5-a372-74ad1767495a","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"db307ad0-f0f1-4cbe-afb7-5d6327858d84","IsCreationKey":false,"Key":139.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"db307ad0-f0f1-4cbe-afb7-5d6327858d84","IsCreationKey":false,"Key":155.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50d37538-572f-4a5e-bc45-4d6566041357","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"81cf371b-6edb-40dc-90c7-fdfa34fdcd3c","IsCreationKey":false,"Key":140.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"81cf371b-6edb-40dc-90c7-fdfa34fdcd3c","IsCreationKey":false,"Key":156.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ff4246f-0228-48a0-92ea-877a2709d8fb","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2a276084-22c2-4989-9565-a8190fc0b623","IsCreationKey":false,"Key":141.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2a276084-22c2-4989-9565-a8190fc0b623","IsCreationKey":false,"Key":157.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7ec28f9-34c1-491a-86ae-9a7949b6e03e","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5a8664af-a6ba-4041-aae1-1997ae0caf80","IsCreationKey":false,"Key":142.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5a8664af-a6ba-4041-aae1-1997ae0caf80","IsCreationKey":false,"Key":158.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"746f9a7c-b30d-4213-9b9c-83092b1523e5","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"54be7683-a3ef-400e-9430-cff3c2243078","IsCreationKey":false,"Key":143.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"54be7683-a3ef-400e-9430-cff3c2243078","IsCreationKey":false,"Key":159.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"573acfbf-4eb0-43e7-b2ec-0a51ceedaad7","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e1c2e7db-b726-4657-911e-af10c8147fcc","IsCreationKey":false,"Key":144.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e1c2e7db-b726-4657-911e-af10c8147fcc","IsCreationKey":false,"Key":160.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50eb9dae-f9df-4093-baa8-422020abf857","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"33a1c206-9027-410c-8147-353e1b392c07","IsCreationKey":false,"Key":145.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"33a1c206-9027-410c-8147-353e1b392c07","IsCreationKey":false,"Key":161.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c51364b0-a681-4914-ab20-dcf201c3dea3","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4f60ec0b-1f6e-4364-9777-94bf3af48575","IsCreationKey":false,"Key":146.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"4f60ec0b-1f6e-4364-9777-94bf3af48575","IsCreationKey":false,"Key":162.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cdaa28d-5442-4ab5-900e-93dfa8fa225b","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"56e0315c-7e1d-499b-be19-3521c09802a6","IsCreationKey":false,"Key":147.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"56e0315c-7e1d-499b-be19-3521c09802a6","IsCreationKey":false,"Key":163.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7fa0350c-2b31-436b-838e-21fbfd03ebc4","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e71c5c88-7c2a-4f46-ae3b-9c08189a9516","IsCreationKey":false,"Key":148.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e71c5c88-7c2a-4f46-ae3b-9c08189a9516","IsCreationKey":false,"Key":164.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ad16e41-454d-4374-81d0-0b4e2b9dac6c","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6da49725-131b-4b72-b018-20e83a57fe02","IsCreationKey":false,"Key":149.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6da49725-131b-4b72-b018-20e83a57fe02","IsCreationKey":false,"Key":165.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61c031a8-e61a-4839-b803-16522a29dfdf","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"45e2b4e2-5f77-4531-a87c-3fca27914ad5","IsCreationKey":false,"Key":150.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"45e2b4e2-5f77-4531-a87c-3fca27914ad5","IsCreationKey":false,"Key":166.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc3c68b4-020f-416f-97bf-9c0a1e8ac884","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1eb1508f-aa2c-4758-acf9-182d73ceb039","IsCreationKey":false,"Key":151.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1eb1508f-aa2c-4758-acf9-182d73ceb039","IsCreationKey":false,"Key":167.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1cf200e2-3e64-44a5-a06a-1e6751a69ca8","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"39681d49-f671-4c40-a87c-c2b0259dbd59","IsCreationKey":false,"Key":152.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"39681d49-f671-4c40-a87c-c2b0259dbd59","IsCreationKey":false,"Key":168.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"65156090-4850-4ad7-af3b-0bfd4bbc7617","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"335b6bf2-cb60-4601-97ec-755181cec4f8","IsCreationKey":false,"Key":153.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"335b6bf2-cb60-4601-97ec-755181cec4f8","IsCreationKey":false,"Key":169.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3f8f3ff6-7fc3-4790-8f78-ce56fd0acbb7","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d526f099-e1f0-4261-9153-583e6848589e","IsCreationKey":false,"Key":154.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"d526f099-e1f0-4261-9153-583e6848589e","IsCreationKey":false,"Key":170.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc9c6f5a-5c81-4651-aee4-71a34c5604b0","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cef3c569-0008-4c68-9692-3d6b522bac65","IsCreationKey":false,"Key":155.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"cef3c569-0008-4c68-9692-3d6b522bac65","IsCreationKey":false,"Key":171.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"635a2de3-32a3-4205-94f4-b37786061039","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad558ed9-0713-4df5-8a4b-64869a420acd","IsCreationKey":false,"Key":156.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ad558ed9-0713-4df5-8a4b-64869a420acd","IsCreationKey":false,"Key":172.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd0b806c-ca2b-4bcb-993b-38b94df4f2a6","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e71ec225-fa00-4466-b3d3-599a22ba819d","IsCreationKey":false,"Key":157.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e71ec225-fa00-4466-b3d3-599a22ba819d","IsCreationKey":false,"Key":173.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c60ad02c-82ce-425d-ba8c-75fba406ae9b","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5169c207-accd-4cd3-9d1c-17e0f7e01c6c","IsCreationKey":false,"Key":158.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5169c207-accd-4cd3-9d1c-17e0f7e01c6c","IsCreationKey":false,"Key":174.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30365a6e-206a-454e-92f5-acc5a7e909da","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3f313706-8db2-4f83-9ed0-1ed0228d5e5a","IsCreationKey":false,"Key":159.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3f313706-8db2-4f83-9ed0-1ed0228d5e5a","IsCreationKey":false,"Key":175.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1dd6d4ba-b8b9-445d-b8cd-c4a3f42b4759","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3536d4b4-e4f3-4bd7-bd6d-3d031bbb99b1","IsCreationKey":false,"Key":160.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3536d4b4-e4f3-4bd7-bd6d-3d031bbb99b1","IsCreationKey":false,"Key":176.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3bb6611-5681-443e-a3cb-f424357da105","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"66b0cc13-0547-4d42-bb89-72e3967ed84b","IsCreationKey":false,"Key":161.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"66b0cc13-0547-4d42-bb89-72e3967ed84b","IsCreationKey":false,"Key":177.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8edf31b8-0f69-44aa-9fdc-ada93a3ea516","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"981f6d6f-2ad7-4450-934b-0ca7a936aa0b","IsCreationKey":false,"Key":162.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"981f6d6f-2ad7-4450-934b-0ca7a936aa0b","IsCreationKey":false,"Key":178.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"23d70ec1-f2f8-4f29-8ee9-6436d2331f65","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1c8b2ce3-fba7-4f4e-b52c-fbaf9537007c","IsCreationKey":false,"Key":163.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1c8b2ce3-fba7-4f4e-b52c-fbaf9537007c","IsCreationKey":false,"Key":179.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"468326d1-a982-4156-9b0b-21deae3214f2","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c81a2b35-e2c8-490c-9b76-993cae8ecb8a","IsCreationKey":false,"Key":164.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c81a2b35-e2c8-490c-9b76-993cae8ecb8a","IsCreationKey":false,"Key":180.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da53516b-b3af-4e6d-b3c4-f1d65f5afa72","path":"sprites/sForestGoblinAttackMultipleAttacks/sForestGoblinAttackMultipleAttacks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f8d9f3cf-a927-4541-ad9e-e69985196848","IsCreationKey":false,"Key":165.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"f8d9f3cf-a927-4541-ad9e-e69985196848","IsCreationKey":false,"Key":181.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

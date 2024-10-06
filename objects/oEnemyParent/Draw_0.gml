@@ -15,6 +15,7 @@ draw_text(_textX, _textY - 60, "State: " + string(state));
 draw_text(_textX, _textY - 80, "Previous State: " + string(previousState));
 draw_text(_textX, _textY - 100, "Health: " + string(hp));
 draw_text(_textX, _textY - 120, "HURT TIMER: " + string(alarm[HURT_TIMER]));
+draw_text(_textX, _textY - 140, "Distance: " + string(point_distance(x, y, oPlayer.x, oPlayer.y)));
 //draw_text(_textX, _textY - 80, "No Ground: " + string(noGround));
 //draw_text(_textX, _textY - 40, "xPosition: " + string(xEnemyDelta));
 //draw_text(_textX, _textY - 100, "Moving Right: " + string(movingRight));
