@@ -23,6 +23,8 @@ hp = hpMax;
 // Combat Variables
 disappearTimer = 500;
 hurtTime = 30;
+attackDistance = noone;
+inAttackRange = false;
 
 
 // Debug Variables
