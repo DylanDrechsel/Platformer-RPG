@@ -12,6 +12,12 @@ function FG_MoveTowardsPlayer() {
         if (inAttackRange != true) inAttackRange = true;
 		xSpeed = 0;
     }
+	
+	if (x < oPlayer.x) {
+        image_xscale = 1;
+    } else if (x > oPlayer.x) {
+        image_xscale = -1;
+    }
     
     x += xSpeed;
 }
