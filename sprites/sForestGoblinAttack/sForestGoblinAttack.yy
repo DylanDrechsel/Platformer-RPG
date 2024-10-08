@@ -78,7 +78,7 @@
   ],
   "name":"sForestGoblinAttack",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Attacks",
     "path":"folders/Enemy/Forest Goblin/Sprites/Attacks.yy",
@@ -296,7 +296,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":96,
-    "yorigin":69,
+    "yorigin":75,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
