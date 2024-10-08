@@ -24,8 +24,8 @@ hp = hpMax;
 disappearTimer = 500;
 hurtTime = 100;
 attackDistance = noone;
+isAttacking = false;
 inAttackRange = false;
-
 
 // Debug Variables
 //xCheck = false;

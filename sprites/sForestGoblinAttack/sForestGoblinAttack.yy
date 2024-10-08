@@ -80,8 +80,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Enemy/Forest Goblin/Sprites.yy",
+    "name":"Attacks",
+    "path":"folders/Enemy/Forest Goblin/Sprites/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
