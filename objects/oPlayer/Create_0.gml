@@ -41,6 +41,9 @@ isCrouching = false;
 crouchSpd = 3;
 
 // Combat Variables
+hpMax = 100;
+hp = hpMax;
+
 // Blocking Variables
 isBlocking = false;
 
