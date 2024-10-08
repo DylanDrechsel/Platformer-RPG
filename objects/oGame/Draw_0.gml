@@ -9,8 +9,8 @@ var _cameraWidth = camera_get_view_width(view_camera[0]);
 var _cameraHeight = camera_get_view_height(view_camera[0]);
 
 // Get the size of the background sprite
-var _bgWidth = sprite_get_width(forest_background);
-var _bgHeight = sprite_get_height(forest_background);
+var _bgWidth = sprite_get_width(dark_forest_background);
+var _bgHeight = sprite_get_height(dark_forest_background);
 
 // Scale the background to fit the camera size
 var _scaleX = _cameraWidth / _bgWidth;

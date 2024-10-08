@@ -1,4 +1,9 @@
 function FG_MoveTowardsPlayer() {
+	if (sprite_index != sForestGoblinRun && alarm[HURT_TIMER] <= 0) {
+		sprite_index = sForestGoblinRun;
+		image_index = 0;
+	}
+	
     var _playerX = oPlayer.x;
     var _distance = point_distance(x, y, oPlayer.x, oPlayer.y);
 	//var _distance = abs(x - _playerX); --> Returns the same as the above function except just whole numbers
