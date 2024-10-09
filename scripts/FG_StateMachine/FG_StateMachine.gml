@@ -20,7 +20,7 @@ function FG_StateMachine(){
 		break;
 		case ESTATES.FG_COMBAT:
 			FG_MoveTowardsPlayer();
-			//if (inAttackRange) FG_BasicAttack();
+			if (inAttackRange) FG_BasicAttack();
 		break;
 		case ESTATES.FG_DEAD:
 			FG_Dead();

@@ -1,5 +1,5 @@
 function FG_MoveTowardsPlayer() {
-	if (sprite_index != sForestGoblinRun && alarm[HURT_TIMER] <= 0) {
+	if (sprite_index != sForestGoblinRun && alarm[HURT_TIMER] <= 0 && !inAttackRange) {
 		sprite_index = sForestGoblinRun;
 		image_index = 0;
 	}
