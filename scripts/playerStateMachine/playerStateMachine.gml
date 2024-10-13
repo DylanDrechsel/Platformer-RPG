@@ -5,7 +5,6 @@ function playerStateMachine(){
 		case STATES.IDLE:
 			checkState();
 			addGravity();
-			checkCollision();
 			playerDash();
 		break;
 		case STATES.FREE:
@@ -35,4 +34,7 @@ function playerStateMachine(){
 		case STATES.DEAD:
 		break;
 	}
+	
+	checkCollision();
+	//movingPlatformCollision();
 }
