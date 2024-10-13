@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"checkCollision",
   "parent":{
-    "name":"Collisions",
-    "path":"folders/Collisions.yy",
+    "name":"Scripts",
+    "path":"folders/Collisions/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

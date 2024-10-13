@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oCol",
+  "%Name":"oPlatformMoving",
   "eventList":[],
   "managed":true,
-  "name":"oCol",
+  "name":"oPlatformMoving",
   "overriddenProperties":[],
   "parent":{
-    "name":"oCol",
-    "path":"folders/Collisions/oCol.yy",
+    "name":"oPlatformMoving",
+    "path":"folders/Collisions/oPlatformMoving.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sCol",
-    "path":"sprites/sCol/sCol.yy",
+    "name":"sDungeonPlatform",
+    "path":"sprites/sDungeonPlatform/sDungeonPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
