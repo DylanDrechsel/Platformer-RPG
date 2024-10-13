@@ -6,8 +6,8 @@
   "name":"oCol",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collisions",
-    "path":"folders/Collisions.yy",
+    "name":"oCol",
+    "path":"folders/Collisions/oCol.yy",
   },
   "parentObjectId":null,
   "persistent":false,

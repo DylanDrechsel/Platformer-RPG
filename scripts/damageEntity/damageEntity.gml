@@ -21,6 +21,6 @@ function damageEntity(_targetID, _sourceID, _damage){
 		if (object_index == oPlayer) state = STATES.HURT;
 		if (object_index == oForestGoblin) state = ESTATES.FG_HURT;
 		
-		//image_index = 0;
+		image_index = 0;
 	}
 }

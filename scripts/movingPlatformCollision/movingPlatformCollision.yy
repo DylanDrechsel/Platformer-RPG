@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"checkCollision",
+  "%Name":"movingPlatformCollision",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"checkCollision",
+  "name":"movingPlatformCollision",
   "parent":{
     "name":"Scripts",
     "path":"folders/Collisions/Scripts.yy",
