@@ -1,3 +1,3 @@
-function addGravity(){
+function addGravity(){	
 	ySpeed += grav;
 }

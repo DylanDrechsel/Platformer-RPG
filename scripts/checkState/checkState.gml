@@ -23,7 +23,7 @@ function checkState(){
 		state = STATES.CROUCH;
 	}
 	
-	if (!keyDown && !keyUp && !keyLeft && !keyRight && isOnGround && 
+	if (!keyDown && !keyUp && !keyLeft && !keyRight && (isOnGround || isOnPlatform) && 
 	!isCrouching && !isBlocking && !isDashing && !dashJump && !isAttacking) {
 		if (sprite_index != sPlayerIdle) sprite_index = sPlayerIdle;
 		state = STATES.IDLE;

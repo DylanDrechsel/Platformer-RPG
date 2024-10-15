@@ -24,7 +24,8 @@ draw_text(_debugStartX + _boxWidth, _debugStartY + 40, "Jumping: " + string(isJu
 draw_text(_debugStartX + _boxWidth, _debugStartY + 60, "Dashing: " + string(isDashing));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 80, "Dash Jump: " + string(dashJump));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 100, "Sprite Index: " + string(sprite_index));
-draw_text(_debugStartX + _boxWidth, _debugStartY + 120, "Sprite Image Index: " + string(floor(image_index)));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 120, "isOnPlatform: " + string(isOnPlatform));
+//draw_text(_debugStartX + _boxWidth, _debugStartY + 120, "Sprite Image Index: " + string(floor(image_index)));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 140, "Crouching: " + string(isCrouching));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 160, "Blocking: " + string(isBlocking));
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Crouch Blocking: " + string(isCrouchBlocking));
