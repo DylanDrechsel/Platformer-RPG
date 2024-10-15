@@ -1,11 +1,13 @@
 function movingPlatformCollision(){
-	var _movingPlatform = instance_nearest(x, y, oPlatformMoving);
+	var _movingPlatform = instance_place(x, y + max(1, ySpeed), oPlatformMoving);
 	if (_movingPlatform && bbox_bottom <= _movingPlatform.bbox_top) {
 		var _pixelCheck = sign(ySpeed)
-		show_debug_message(string("hit"))
+		while (!place_meeting(x, y + _pixelCheck, oPlatformMoving)) {
+			y += _pixelCheck
+			show_debug_message("HIT!")
+		}
 		
-		
-		//ySpeed = 0;
+		ySpeed = 0;
 	}
 }
 

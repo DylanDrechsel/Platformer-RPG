@@ -19,6 +19,7 @@ function playerMovement(){
 	} else state = STATES.IDLE;
 	
 	checkCollision();
+	
 	x += xSpeed;
 	y += ySpeed;
 }

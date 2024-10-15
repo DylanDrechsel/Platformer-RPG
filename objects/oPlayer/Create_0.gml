@@ -20,6 +20,7 @@ keyDash =false;
 // Gravity & Collision
 grav = .25;
 isOnGround = false;
+isOnPlatform = false;
 
 // Movement Variables
 xSpeed = 0;
