@@ -36,5 +36,5 @@ function playerStateMachine(){
 	}
 	
 	checkCollision();
-	//movingPlatformCollision();
+	movingPlatformCollision();
 }
