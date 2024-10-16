@@ -18,16 +18,16 @@ function checkCollision(){
 	}
 	
 	var _movingPlatform = instance_place(x, y + max(1, ySpeed), oPlatformMoving);
-	if (_movingPlatform && bbox_bottom <= _movingPlatform.bbox_top) {
-		if (ySpeed > 0) {
+	if (_movingPlatform && place_meeting(x , y + 1, oPlatformMoving)) {
+		if (ySpeed > 0 && !isOnPlatform) {
 			var _pixelCheck = sign(ySpeed)
 			while (!place_meeting(x, y + _pixelCheck, oPlatformMoving)) {
 				y += _pixelCheck
-				show_debug_message("HIT!");
-				grav = 0;
 			}
-			
+			isOnPlatform = true;
+			grav = 0;
 			ySpeed = 0;
-		} 
+			
+		}
 	} 
 }

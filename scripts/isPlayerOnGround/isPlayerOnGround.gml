@@ -1,4 +1,4 @@
 function isPlayerOnGround(){
 	if (place_meeting(x, y + 1, oCol)) isOnGround = true else isOnGround = false;
-	if (place_meeting(x, y + 120, oPlatformMoving) && sign(ySpeed) == -1) isOnPlatform = true else isOnPlatform = false;
+	if (!place_meeting(x, y + 1, oPlatformMoving)) isOnPlatform = false;
 }

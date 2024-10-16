@@ -1,5 +1,5 @@
 function checkState(){
-    if ((keyLeft || keyRight) && state != STATES.FREE && isOnGround && !isCrouching && !isDashing && !isAttacking) {
+    if ((keyLeft || keyRight) && state != STATES.FREE && (isOnGround || isOnPlatform) && !isCrouching && !isDashing && !isAttacking) {
         state = STATES.FREE;
 		isBlocking = false;
     }
@@ -14,11 +14,11 @@ function checkState(){
 		state = STATES.ATTACK;	
 	}
 	
-	if (keyUp && state != STATES.JUMP && isOnGround && !isCrouching && !isDashing && !isAttacking) {
+	if (keyUp && state != STATES.JUMP && (isOnGround || isOnPlatform) && !isCrouching && !isDashing && !isAttacking) {
 		state = STATES.JUMP;
 	}
 	
-	if (keyDown && state != STATES.CROUCH && isOnGround && !isDashing && !isBlocking && !isAttacking) {
+	if (keyDown && state != STATES.CROUCH && (isOnGround || isOnPlatform) && !isDashing && !isBlocking && !isAttacking) {
 		isCrouching = true;
 		state = STATES.CROUCH;
 	}
