@@ -24,10 +24,14 @@ function checkCollision(){
 			while (!place_meeting(x, y + _pixelCheck, oPlatformMoving)) {
 				y += _pixelCheck
 			}
+			
 			isOnPlatform = true;
 			grav = 0;
 			ySpeed = 0;
-			
 		}
-	} 
+	} else {
+		isOnPlatform = false;
+		grav = .25;
+	}
+	
 }
