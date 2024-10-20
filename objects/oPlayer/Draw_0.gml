@@ -31,6 +31,7 @@ draw_text(_debugStartX + _boxWidth, _debugStartY + 160, "Blocking: " + string(is
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Crouch Blocking: " + string(isCrouchBlocking));
 //draw_text(_debugStartX + _boxWidth, _debugStartY 200, "Crouch Attacking: " + string(isCrouchAttacking));
 draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Attacking: " + string(isAttacking));
+draw_text(_debugStartX + _boxWidth, _debugStartY + 200, "Gravity: " + string(grav));
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Attack Count: " + string(attackCount));
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 200, "Attack Queued: " + string(attackQueued));
 //draw_text(_debugStartX + _boxWidth, _debugStartY + 180, "Can Attack: " + string(canAttack));

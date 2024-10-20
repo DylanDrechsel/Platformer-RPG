@@ -1,5 +1,5 @@
-platformSpeed = 0;
-currentSpeed = 0;
+platformSpeed = 1;
+currentSpeed = 1;
 xSpeed = 0;
 ySpeed = 0;
 

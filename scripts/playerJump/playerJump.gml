@@ -8,7 +8,7 @@ function playerJump(spd){
 	if (image_speed == 0) image_speed = 1;
 	
 	// If the Player is on the ground and hit the Jump button apply the Jump values and change the sprite
-	if (keyUp && isOnGround && !isJumping && !isDashing && !dashJump) {
+	if (keyUp && (isOnGround || isOnPlatform) && !isJumping && !isDashing && !dashJump) {
 		if (sprite_index != sPlayerJump) {
 			sprite_index = sPlayerJump;
 			image_index = 0;
@@ -53,13 +53,13 @@ function playerJump(spd){
 	}
 	
 	// Handles Landing
-	if (isOnGround && ySpeed >= 0 && isJumping && !isDashing) {
+	if ((isOnGround || isOnPlatform) && ySpeed >= 0 && isJumping && !isDashing) {
 		if (keyRight || keyLeft) state = STATES.FREE else state = STATES.IDLE
 		resetJumpState();
 	}
 	
 	// Resets the State after Dash and Landing
-	if (state == STATES.JUMP && isJumping && isDashing && dashJump && isOnGround) {
+	if (state == STATES.JUMP && isJumping && isDashing && dashJump && (isOnGround || isOnPlatform)) {
 		state = STATES.IDLE;
 		xSpeed = 0;
 		resetJumpState();
