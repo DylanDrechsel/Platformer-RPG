@@ -29,9 +29,11 @@ function checkCollision(){
 			grav = 0;
 			ySpeed = 0;
 		}
+		
+		x += _movingPlatform.xSpeed / 2;
+		y += _movingPlatform.ySpeed;
 	} else {
 		isOnPlatform = false;
 		grav = .25;
 	}
-	
 }

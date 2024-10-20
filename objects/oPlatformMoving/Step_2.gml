@@ -1,4 +1,4 @@
-x += XSpeed;
+x += xSpeed;
 y += ySpeed;
 
 if (goingToStart && point_distance(x, y, startX, startY) < currentSpeed) {

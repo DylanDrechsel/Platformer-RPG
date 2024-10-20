@@ -6,5 +6,5 @@ if (goingToStart) {
 	_targetY = startY;
 }
 
-XSpeed = sign(_targetX - x) * currentSpeed;
+xSpeed = sign(_targetX - x) * currentSpeed;
 ySpeed = sign(_targetY - y) * currentSpeed;
